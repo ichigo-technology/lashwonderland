@@ -1,0 +1,2337 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2555                
+POS_VISITOR 29512               
+POS_DAY 86624               
+POS_DOMAIN 3582                
+POS_LOGIN 3819                
+POS_ROBOT 3974                
+POS_WORMS 4689                
+POS_EMAILSENDER 4820                
+POS_EMAILRECEIVER 4963                
+POS_SESSION 87611               
+POS_SIDER 87824               
+POS_FILETYPES 5098                
+POS_OS 5379                
+POS_BROWSER 5541                
+POS_SCREENSIZE 6129                
+POS_UNKNOWNREFERER 6203                
+POS_UNKNOWNREFERERBROWSER 7511                
+POS_ORIGIN 8316                
+POS_SEREFERRALS 8465                
+POS_PAGEREFS 8624                
+POS_SEARCHWORDS 9289                
+POS_KEYWORDS 9455                
+POS_MISC 2219                
+POS_ERRORS 9528                
+POS_CLUSTER 3675                
+POS_SIDER_404 9655                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201001000857 89582 24038366 41946957801
+FirstTime 20200901000338
+LastTime 20200930235645
+LastUpdate 20201002022409 89582 87245 2336 0 0
+TotalVisits 1838                
+TotalUnique 1266                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1410                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 221 2922 556486846 69 190 14256450
+1 214 2347 430337746 162 271 6975889
+2 101 1201 227258849 89 222 16855385
+3 86 638 103979501 80 179 3526385
+4 52 459 78980673 92 201 8239521
+5 69 703 121225263 100 229 16923418
+6 83 769 134260756 119 223 11957337
+7 108 1115 198698165 91 293 27149608
+8 213 2746 521469348 141 277 9515770
+9 275 3590 655601376 81 190 7241147
+10 389 5422 1020796861 88 196 5313674
+11 373 5284 995706018 158 340 17522829
+12 385 5316 987030024 106 270 14949605
+13 376 5413 1026892272 200 374 8998186
+14 353 4929 935495361 81 219 15909401
+15 363 5062 921455837 132 335 19957690
+16 416 5821 1151232720 114 323 10662426
+17 377 4645 858788932 119 343 15001779
+18 331 4222 771221018 85 222 24807288
+19 272 3423 622808490 188 365 19351583
+20 293 3750 713867029 101 258 11188813
+21 323 4791 967610684 87 287 17809915
+22 256 3704 767631858 96 234 23541888
+23 317 4327 866808476 95 216 5531703
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 6246 82599 15635644103
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+bot[+:,\.\;\/\\-] 1208 219655877 20200930233654 332
+googlebot 967 77082687 20200930210153 106
+infobot 242 3304410 20200930204541 96
+yandex 207 4186466 20200930183609 57
+baiduspider 152 20200165 20200922085707 0
+robot 85 1628504 20200930123706 35
+cfnetwork 70 0 20200930192324 0
+unknown 48 0 20200930145600 48
+spider 44 1095035 20200930001649 4
+java 14 482356 20200928100931 0
+no_user_agent 13 344540 20200928060045 0
+mail\.ru 2 34454 20200925212346 1
+slurp 1 34454 20200930055415 0
+python 13 378994 20200924125827 1
+netcraft 1 34454 20200913170844 0
+crawl 4 100297 20200918193913 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 4 159881 0 0
+css 15796 429846222 0 0
+png 4134 912450531 0 0
+ttf 33 1765456 0 0
+txt 1 0 0 0
+woff 2751 82759268 0 0
+html 2485 82134371 0 0
+jpg 29718 13519488129 0 0
+js 25367 581161299 0 0
+gif 1338 24819900 0 0
+svg 972 1059046 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 1
+winxp 120
+unix 1
+win2000 3
+winnt 4220
+linuxubuntu 5
+winvista 21
+linux 2447
+macosx 74893
+Unknown 410
+win2008 478
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 40
+firefox28.0 21
+firefox57.0 2
+msie6.0 5
+firefox66.0 1
+firefox15.0 1
+chrome 15084
+firefox26.0 1
+firefox52.0 156
+firefox4.0 1
+curl 11
+msie8.0 1
+msie7.0 4
+firefox23.0 1
+firefox65.0 3
+firefox9.0.1 2
+msie9.0 19
+firefox79.0 20
+Unknown 303
+firefox50.0 2
+firefox53.0 1
+firefox17.0 112
+firefox72.0 3
+firefox55.0 4
+opera 1
+firefox77.0 1
+firefox21.0 3
+firefox67.0 1
+firefox47.0 1
+firefox61.0 2
+firefox25.0 1
+mozilla 11723
+netscape5.0 6
+firefox81.0 1
+firefox22.0 1
+firefox80.0 90
+msie10.0 12
+firefox51.0 66
+firefox35.0 1
+firefox15.0.1 1
+safari 54930
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 29
+Dispatch/0.14.0-SNAPSHOT 20200924040239
+Mozilla/5.0_(compatible;_evc-batch/2.0) 20200928234945
+curl/7.58.0 20200929054525
+\ 20200920202459
+Nexgate_Ruby_Client 20200928041155
+adreview/1.0 20200908170038
+curl/7.71.1 20200929182547
+axios/0.19.2 20200904095850
+Mozilla/5.0_zgrab/0.x 20200929171315
+GuzzleHttp/6.5.5_curl/7.68.0_PHP/7.4.9 20200928123255
+User-Agent\ 20200908210148
+[FBAN/FBIOS;FBDV/iPhone12,3;FBMD/iPhone;FBSN/iOS;FBSV/13.6.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5] 20200908133656
+Mozilla/5.0_(compatible;_Dataprovider.com) 20200930061005
+Mozilla/5.0_Firefox/35.0 20200909170515
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20200901000338
+Chrome 20200918090848
+curl/7.38.0 20200922013158
+Foregenix_Web_Scan_1.100000_(www.foregenix.com/scan) 20200906204011
+curl/7.52.1 20200927073328
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20200926171759
+curl/7.47.0 20200902180733
+cortex/1.0 20200925174301
+chimebot 20200903120653
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200928231037
+Android 20200902192925
+YelpBot_(https://www.yelp.com/) 20200930145636
+Go-http-client/1.1 20200930024930
+PageThing.com 20200926052445
+curl/7.68.0 20200917230306
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 16
+Foregenix_Web_Scan_1.100000_(www.foregenix.com/scan) 20200906204011
+Dispatch/0.14.0-SNAPSHOT 20200924040239
+\ 20200920202459
+Nexgate_Ruby_Client 20200928041155
+adreview/1.0 20200908170038
+cortex/1.0 20200925174301
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20200928231037
+axios/0.19.2 20200904095850
+chimebot 20200903120653
+Android 20200902192925
+Go-http-client/1.1 20200930024930
+YelpBot_(https://www.yelp.com/) 20200930145636
+[FBAN/FBIOS;FBDV/iPhone12,3;FBMD/iPhone;FBSN/iOS;FBSV/13.6.1;FBSS/3;FBID/phone;FBLC/en_US;FBOP/5] 20200908133656
+User-Agent\ 20200908210148
+PageThing.com 20200926052445
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20200901000338
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1911 2758
+From1 2 2
+From2 410 450
+From3 45 63
+From4 3878 79326
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 410 450
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+https://l.instagram.com 14 14
+https://m.yelp.com 13 13
+http://www.rapidexpendables.com 4 4
+http://m.facebook.com 3 3
+http://l.instagram.com 3 3
+https://www.yelp.com 1 1
+https://www.yelp.com 1 1
+http://aeuo.prizesk.com/view/27996728/profile/ 1 1
+https://www.bing.com 1 9
+http://baidu.com 1 1
+https://www.facebook.com 0 2
+https://www.kapwing.com/studio/editor/overlay/search 0 1
+http://l.facebook.com/l.php 1 1
+http://npk.pctip.net/blog/27996728/view/ 1 1
+https://www.bing.com/images/search 0 1
+https://sucuri.net 1 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+semalt.com 47
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+semalt.com 47
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 1 216
+206 66 2002425
+406 2 548
+404 3117 2621808
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 513
+/blog/wp-includes/wlwmanifest.xml 39 -
+/js/mage/translate_inline.js 3 -
+/wordpress/ 6 -
+/api/.env 1 -
+//assets/plugins/jquery-file-upload/server/php/ 1 -
+/new/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/dashboard/UserControl/CMS/Page/telerik.web.ui.dialoghandler.aspx 1 -
+/cms/portlets/telerik.web.ui.dialoghandler.aspx 1 -
+/webadmin/login.php 1 -
+/haian360/login.php 1 -
+/site/wp-includes/wlwmanifest.xml 40 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/2015/wp-includes/wlwmanifest.xml 3 -
+/web/ 1 -
+/vendor/phpunit/phpunit/LICENSE 2 -
+/controls/events/v2/Telerik.Web.UI.DialogHandler.aspx 1 -
+/iks/spring/login 2 -
+/wp-includes/css/modules.php 1 -
+/install/ 1 -
+/olux.php 2 -
+/1601144164144091653 1 -
+/templates/ja_purity/index.php 1 -
+/pdf/ 1 -
+/xmlrpc.php 29 -
+/test/wp-includes/wlwmanifest.xml 38 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 6 -
+/backup/wp-admin/setup-config.php 1 -
+/wp-config.php.disabled 1 lashwonderland.com
+/resources/.env 1 -
+/houtai/login.php 1 -
+/Config_Shell.php 1 http://www.lashwonderland.com/Config_Shell.php
+/store/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/wp/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/wp/wp-admin/install.php 1 -
+/.local 1 https://www.google.com/
+/administrator/manifests/files/joomla.xml 1 -
+/inc/md5.asp 1 http://www.lashwonderland.com/inc/md5.asp
+/es/wp-admin/setup-config.php 1 -
+/templates/beez/index.php 1 -
+/XxX.php 1 -
+/controls/cms/Telerik.Web.UI.DialogHandler.aspx 1 -
+/wp1/wp-admin/setup-config.php 1 -
+/test/ 1 -
+/https://m.facebook.com/Lashwonderland/ 1 -
+/shop/wp-includes/wlwmanifest.xml 27 -
+/js/stickup.js 2 -
+/templates/protostar/error.php 1 -
+/_wpresources/RadEditorSharePoint/6.4.0.0__1f131a624888eeed/Resources/Telerik.Web.UI.DialogHandler.aspx 1 -
+/js/locale.js 3 -
+/wp-content/themes/Ghost/includes/uploadify/upload_settings_image.php 1 -
+/error.php 1 -
+//vendor/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/admindede888/login.php 1 -
+/wp-config.php.bak 1 lashwonderland.com
+/administrator/ 6 -
+/cg/login.php 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/wp-login.php 15 -
+/login 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/hehe/login.php 1 -
+/js/index.js 1 -
+//lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/js/common.js 3 http://lashwonderland.com/js/common.js
+/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx 3 -
+/wp-content/vuln.php 1 -
+/js/varien/js.js 3 -
+/template/admin/assets/img/logo2.png 3 -
+/gallery/ 1 -
+/facai/login.php 1 -
+/administrator/templates/bluestork/error.php 1 -
+/wp-content/plugins/vwcleanerplugin/bump.php 1 -
+/bob/login.php 1 -
+/404javascript.js 1 https://www.google.com/url/
+/blog/xmlrpc.php 1 -
+/wp-admin 4 -
+/license.txt 4 -
+/wp-config.php.new 1 lashwonderland.com
+/forum//admincp/index.php 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 34 www.google.com
+/catalog/view/javascript/common.js 3 -
+//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/SiteTemplates/Telerik.Web.UI.DialogHandler.aspx 1 -
+//admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/old/wp-admin/install.php 1 -
+/public/simpleboot/css/simplebootadmin.css 1 -
+/wp-admin/network/wp-footer.php 1 -
+/sitemaps.xml 1 -
+/2018/wp-admin/setup-config.php 1 -
+/.production 1 https://www.google.com/
+/wp-admin/shapes.php 1 -
+/ads.txt 102 -
+/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin/view/javascript/common.js 7 -
+/providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx 1 -
+/v2/ 1 -
+/up.php 2 -
+/specials.html/js/jquery.ui.widget.min.js 1 -
+/wp/wp-admin/setup-config.php 5 -
+/config/AspCms_Config.asp 2 http://www.lashwonderland.com/config/AspCms_Config.asp
+/modules/mod_simplefileuploadv1.3/elements/Clean.php 1 -
+/wp-content/plugins/ubh/index.php 1 -
+/blog/wp-admin/install.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 40 -
+/DesktopModule/UIYKienCuTri/Telerik.Web.UI.DialogHandler.aspx 1 -
+//lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/_controls/responsive/Telerik.Web.UI.DialogHandler.aspx 2 -
+/old-wp/ 1 -
+/2016/wp-includes/wlwmanifest.xml 3 -
+/blog/.env 2 -
+//wp-admin/setup-config.php 1 -
+/myblog/wp-admin/setup-config.php 1 -
+/wp-info.php 1 -
+/wp-content/uploads/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 21 -
+/test/.env 1 -
+/inc/AspCms_AdvJs.asp 1 http://www.lashwonderland.com/inc/AspCms_AdvJs.asp
+/staging/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/html404/index.html 1 -
+/application/.env 1 -
+/wp-config.bak 1 lashwonderland.com
+/manager/login.php 1 -
+/1689/login.php 1 -
+/common/admin/Calendar/telerik.web.ui.dialoghandler.aspx 1 -
+/wp-config.php_original 1 lashwonderland.com
+/V3.php 1 -
+/libraries/joomla/jmail.php 1 -
+/xixi/login.php 1 -
+/.remote 1 https://www.google.com/
+//wp-content/plugins/wp-file-manager/lib/files/css.php 1 -
+/dede/login.php 7 -
+/wp-config.php_orig 1 lashwonderland.com
+/feed/ 3 -
+/web/crm/start 2 -
+/new/ 1 -
+/admin/includes/general.js 6 -
+/jian/login.php 4 -
+/RxR.php 1 -
+/cron/.env 2 -
+/Providers/HtmlEditorProviders/Telerik/telerik.web.ui.dialoghandler.aspx 1 -
+/administrator/templates/hathor/error.php 1 -
+/wp4/wp-admin/setup-config.php 1 -
+/js/css.js 3 -
+/wp-admin/ 4 http://lashwonderland.com/
+/shell.php 4 -
+/wp-content/uploads/2020/09/ 1 -
+/oldblog/wp-admin/setup-config.php 1 -
+/desktopmodules/dnnwerk.radeditorprovider/dialoghandler.aspx 1 -
+/user_data/css/common.css 3 -
+/templates/beez_20/index.php 1 -
+//panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/js/login.php 1 -
+//www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/DesktopModules/Rad%20EditorProvider/DialogHandler.aspx 2 -
+/portal/wp-includes/wlwmanifest.xml 2 -
+/administrator/templates/bluestork/index.php 1 -
+//phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/wp-includes/js/jquery/jquery.js 11 -
+/bk/ 1 -
+/misc/druplicon.png 3 -
+/specials.html/js/jquery.min.js 1 -
+/wp-config.php-original 1 lashwonderland.com
+/brabantwallon/app_master/telerik.web.ui.dialoghandler.aspx 2 -
+/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 2 -
+/website-sitemap.xml 1 -
+/wpwebsite/wp-admin/setup-config.php 1 -
+/Telerik.Web.UI.DialogHandler.aspx 3 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 3 -
+/wp-config.php.original 1 lashwonderland.com
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 5 -
+/pma/index.php 1 -
+/v1/wp-admin/setup-config.php 1 -
+/wp2/ 1 -
+/wp-config.php.backup 1 lashwonderland.com
+/administrator/.env 3 -
+//phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/main/wp-includes/wlwmanifest.xml 1 -
+/vendor/phpunit/phpunit/phpunit.xml 10 -
+/templates/beez5/index.php 1 -
+/admin001/login.php 1 -
+/login/ 2 -
+/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 3 -
+/a 8 -
+/docs/ 1 -
+/js/header-rollup-554.js 7 -
+/core/.env 3 -
+/guanli/login.php 4 -
+//crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/ba/login.php 1 -
+/DesktopModules/YA.Controls/AngularMain/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wang/login.php 4 -
+/desktopmodules/dnnwerk.radeditorprovider/telerik.web.ui.dialoghandler.aspx 2 -
+/templates/system/index.php 1 -
+/admin/ 4 -
+/Components/General/Admin/UserControl/Telerik.Web.UI.DialogHandler.aspx 2 -
+/https://www.instagram.com/lashwonderland/ 1 -
+/skin/adminhtml/default/default/boxes.css 3 -
+/wpsite/wp-admin/setup-config.php 1 -
+//wp-content/plugins/wp-file-manager/lib/files/ugYwTN.php 1 -
+/ex/wp-admin/setup-config.php 1 -
+/js/win_op.js 3 -
+/site/wp-admin/setup-config.php 4 -
+/v3/wp-admin/setup-config.php 1 -
+/cy/login.php 1 -
+/wp-content/plugins/xichang/x.php 1 -
+/example/wp-admin/setup-config.php 1 -
+/2018/ 1 -
+/wp1/ 1 -
+//sitemap.html 1 -
+/img/ 1 -
+/e/admin/index.php 4 -
+/blog/ 2 -
+/admin/.env 4 -
+/wp-config.php~ 1 lashwonderland.com
+/test/wp-admin/install.php 1 -
+/wp/ 2 -
+/sites/.env 1 -
+/cms/wp-includes/wlwmanifest.xml 39 -
+/v1/ 1 -
+/2018/wp-includes/wlwmanifest.xml 26 -
+/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx 2 -
+/administrator/help/en-GB/toc.json 6 -
+/common/admin/PhotoGallery2/telerik.web.ui.dialoghandler.aspx 1 -
+/images/wlw/wp-icon.png 3 -
+/images/editor/separator.gif 7 -
+//vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/uploads/.env 2 -
+/web/.env 2 -
+/demo/ 1 -
+/catalog/view/theme/default/stylesheet/stylesheet.css 3 -
+/backup/ 1 -
+/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx 2 -
+/admin 3 -
+/_wpresources/RadEditorSharePoint/6.7.1.0__1f131a624888eeed/Resources/telerik.web.ui.dialoghandler.aspx 1 -
+/media/wp-includes/wlwmanifest.xml 25 -
+/sitemap_index.xml 1 -
+/wangdafa 2 -
+//admincp/index.php 1 -
+/wp-config.php.swp 1 lashwonderland.com
+/_wpresources/RadEditorSharePoint/6.9.0.0__1f131a624888eeed/Resources/telerik.web.ui.dialoghandler.aspx 2 -
+/demo/wp-admin/setup-config.php 1 -
+/templates/rhuk_milkyway/index.php 1 -
+/core/CHANGELOG.txt 3 -
+/administrator/templates/hathor/index.php 1 -
+//phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/phpmyadmin/index.php 1 -
+/images/vuln.php 1 -
+/phpMyAdmin/index.php 1 -
+/actions/seomatic/meta-container/all-meta-containers 2 -
+/controls/cms/telerik.web.ui.dialoghandler.aspx 1 -
+/.git/HEAD 1 https://sucuri.net
+/portal/channels/fa/Cms_HtmlText_Manage/Telerik.Web.UI.DialogHandler.aspx 2 -
+/888/login.php 1 -
+/router.php 1 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/v2/wp-admin/setup-config.php 1 -
+/DesktopModules/TCModules/TCCategory/telerik.web.ui.dialoghandler.aspx 2 -
+/desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx 1 -
+/new-site/ 1 -
+/htadmin/login.php 1 -
+/bak/ 1 -
+/laravel/.env 4 -
+/administrator/templates/isis/index.php 1 -
+/blog/wp-admin/setup-config.php 5 -
+/backup/wp-admin/ 3 http://lashwonderland.com/
+/js/mage/adminhtml/product.js 3 -
+/2019/wp-includes/wlwmanifest.xml 23 -
+/wp-content/plugins/wp-file-manager-pro/lib/php/connector.minimal.php 2 www.google.com
+/caiyuan/login.php 4 -
+/admindede/login.php 1 -
+/upload/ 1 -
+/storage/.env 6 -
+/wp3/wp-admin/setup-config.php 1 -
+/templates/protostar/index.php 1 -
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 3 -
+/admin//assets/plugins/jquery-file-upload/server/php/ 1 -
+/aspnet-ajax/editor/examples/overview/telerik.web.ui.dialoghandler.aspx 2 -
+//wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/testwordpress/wp-admin/setup-config.php 1 -
+/wp-config.php.old 1 lashwonderland.com
+/home/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/2019/wp-admin/setup-config.php 1 -
+/Inc/md5.asp 1 http://www.lashwonderland.com/Inc/md5.asp
+/cfwb/login.php 1 -
+//license.txt 2 -
+/098.php 1 -
+/upel.php 1 -
+/newblog/wp-admin/setup-config.php 1 -
+/dedecms/login.php 1 -
+/components/com_b2jcontact/izoc.php 1 -
+/2019/ 1 -
+/fortest/wp-admin/setup-config.php 1 -
+/v5/wp-admin/setup-config.php 1 -
+/wp-content/plugins/upspy/index.php 1 -
+/js/js.js 3 -
+//old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx 1 -
+//blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/OLD/wp-admin/ 3 http://lashwonderland.com/
+/qili_admin/login.php 1 -
+/specials.html/js/jquery.tabdancer.js 1 -
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/Telerik.Web.UI.WebResource.axd 2 -
+/old/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/gsdd/login.php 1 -
+/misc/ajax.js 7 -
+/app_master/telerik.web.ui.dialoghandler.aspx 1 -
+/system/.env 1 -
+/2020/wp-admin/setup-config.php 1 -
+/administrator/templates/isis/error.php 1 -
+/a/j/volusion.js 3 -
+/plugins//ckeditor/kcfinder/browse.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/styles.css 1223 http://www.lashwonderland.com/
+/administrator/language/en-GB/install.xml 6 -
+/v4/wp-admin/setup-config.php 1 -
+/templates/system/error.php 1 -
+/wp/wp-admin/ 2 http://lashwonderland.com/
+/upload.php 3 -
+/Old/wp-admin/setup-config.php 1 -
+/el/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx 2 -
+/new/wp-admin/install.php 1 -
+/js/eccube.js 3 -
+/1599256691177528529 1 -
+/tdcq/login.php 1 -
+/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp2/wp-admin/setup-config.php 1 -
+/database/.env 3 -
+/wp-includes/wlwmanifest.xml 44 -
+//vendor/phpunit/phpunit/phpunit.xml 2 -
+/public/js/wind.js 1 -
+/wp-admin/admin-ajax.php 1 -
+/new_license.php 1 -
+/js/lib/flex.js 3 -
+/statics/css/crop.css 2 -
+/dedea/login.php 4 -
+/app/.env 3 -
+/tmp/ 1 -
+/lib/.env 2 -
+/js/mage/cookies.js 3 -
+/system/providers/htmleditor/telerik.web.ui.dialoghandler.aspx 1 -
+/admin//ckeditor/kcfinder/browse.php 1 -
+/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx 1 -
+/cms/login.php 1 -
+/admin1/login.php 1 -
+/shop/.env 1 -
+/suitecrm/index.php 2 -
+//lib/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx 2 -
+/v1/.env 2 -
+/libraries/joomla/jmails.php 1 -
+/DesktopModules/News/Telerik.Web.UI.DialogHandler.aspx 2 -
+/common/admin/Jobs2/telerik.web.ui.dialoghandler.aspx 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/2163/Library/cms/portlets/Telerik.Web.UI.DialogHandler.aspx 1 -
+/install.php 2 -
+/sitefinity/UserControls/Dialogs/DocumentEditorDialog.aspx 1 -
+/administrator/index.php 1 -
+/wp-content/plugins/ppus/up.php 1 -
+/manage/login.php 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 1 -
+/wp-config.php_ 1 lashwonderland.com
+/sito/wp-includes/wlwmanifest.xml 39 -
+/wordpresssite/wp-admin/setup-config.php 1 -
+/modules/modules/modules.php 1 -
+/js/mage/adminhtml/tools.js 3 -
+/wordpress/wp-admin/ 5 http://lashwonderland.com/
+/temp/ 1 -
+/DesktopModules/TelerikWebUI/RadEditorProvider/Telerik.Web.UI.DialogHandler.aspx 2 -
+/AsiCommon/Controls/ContentManagement/ContentDesigner/telerik.web.ui.dialoghandler.aspx 1 -
+//wp-content/plugins/wp-file-manager/lib/main.default.js 1 -
+//api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//xmlrpc.php 2 -
+/dev/ 1 -
+/shen/login.php 1 -
+/home/ 1 -
+/Admin/Telerik.Web.UI.DialogHandler.aspx 2 -
+/wp-content/plugins/wp-file-manager/lib/files/rxMUBj.php 1 -
+/404testpage4525d2fdc 1 https://sucuri.net
+/sitemap.xml 5 -
+//wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/writeareview 1 -
+//demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/demo/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/wso.php 3 -
+//wp-admin/install.php 1 -
+/vendor/.env 8 -
+/assets//ckeditor/kcfinder/browse.php 1 -
+/specials.html/js/jquery.isotope.js 1 -
+/admin/login.php 8 -
+/testwp/wp-admin/setup-config.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 38 -
+/uploads/ 1 -
+//cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/www/wp-includes/wlwmanifest.xml 1 -
+/admin/index.php 2 -
+//vendor/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/rxr.php 1 -
+/oldsite/wp-admin/setup-config.php 1 -
+/DesktopModules/RadEditorProvider/DialogHandler.aspx 2 -
+/xxxss 3 -
+/https://m.yelp.com/biz/lash-wonderland-new-york-2 1 -
+/css/album.css 4 -
+/cct/login.php 1 -
+//dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/biz_photos/lash-wonderland-new-york-2 5 -
+/old/ 1 -
+/templates/atomic/error.php 1 -
+/wordpresswebsite/wp-admin/setup-config.php 1 -
+/system/providers/htmleditor/Telerik.Web.UI.DialogHandler.aspx 1 -
+/adminer.php 1 -
+/e/data/js/ajax.js 3 -
+/wp-content/plugins/widget-logic/mini.php 1 -
+/DesktopModules/dnnWerk.RadEditorProvider/DialogHandler.aspx 3 -
+/wordpress/xmlrpc.php 1 -
+/main/ 1 -
+/web/wp-includes/wlwmanifest.xml 40 -
+/RadControls/Spell/telerik.web.ui.dialoghandler.aspx 2 -
+/8sunbet/login.php 1 -
+/dg/login.php 1 -
+/libraries/joomla/css.php 1 -
+/modules/shop/manage/telerik.web.ui.dialoghandler.aspx 2 -
+/blog/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/templates/beez_20/error.php 1 -
+/config/.env 3 -
+//wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/2020/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/Marvins.php 1 -
+/news/wp-includes/wlwmanifest.xml 40 -
+/apps/.env 2 -
+/magento_version 5 -
+/indoxploit.php 3 -
+//.env 3 -
+/vendor/phpunit/phpunit/build.xml 6 -
+/plugins//assets/plugins/jquery-file-upload/server/php/ 1 -
+/admin/wp-admin/setup-config.php 1 -
+/wordpress/wp-admin/setup-config.php 5 -
+/public/.env 9 -
+/site/.env 2 -
+/App_Master/Telerik.Web.UI.DialogHandler.aspx 2 -
+//backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/home/wp-admin/setup-config.php 1 -
+/misc/drupal.js 3 -
+/app-ads.txt 8 -
+/V5.php 2 -
+/README.md 3 -
+/website/wp-includes/wlwmanifest.xml 39 -
+/js/eccube.legacy.js 3 -
+/DesktopModules/Admin/RadEditorProvider/telerik.web.ui.dialoghandler.aspx 2 -
+/temp/wp-admin/setup-config.php 1 -
+/templates/atomic/index.php 1 -
+/cgsw/login.php 1 -
+/humans.txt 6 -
+/new/wp-admin/setup-config.php 2 -
+/xxsssseee 2 -
+/old/wp-admin/ 1 http://lashwonderland.com/
+/js/prototype/validation.js 3 -
+/DesktopModules/Base/EditControls/Telerik.Web.UI.DialogHandler.aspx 2 -
+//wp-content/plugins/wp-file-manager/lib/files/cBSXpC.php 1 -
+/js/navi.js 3 -
+/2017/wp-includes/wlwmanifest.xml 3 -
+/data/admin/allowurl.txt 11 -
+/static/admin/css/base.css 3 -
+/site/ 1 -
+/old/wp-admin/setup-config.php 2 -
+/.env 166 -
+/en/wp-admin/setup-config.php 1 -
+/sitemap.html 1 -
+/templates/beez3/index.php 1 -
+/chen/login.php 3 -
+/dedeadmin/login.php 1 -
+/_wpresources/RadEditorSharePoint/6.4.0.0__1f131a624888eeed/Resources/telerik.web.ui.dialoghandler.aspx 1 -
+//protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/templates/beez5/error.php 1 -
+/util/login.aspx 2 -
+/https://www.secure-booker.com/LashWonderland/MakeAppointment/Search.aspx 1 -
+/wp5/wp-admin/setup-config.php 1 -
+/CHANGELOG.txt 3 -
+/2020/ 1 -
+/js/mage/adminhtml/sales.js 3 -
+/test/wp-admin/setup-config.php 5 -
+/templates/beez3/error.php 1 -
+/wp/wp-includes/wlwmanifest.xml 39 -
+/DesktopModules/RadEditorProvider/telerik.web.ui.dialoghandler.aspx 2 -
+/order/catalog/view/theme/default/stylesheet/stylesheet.css 3 -
+//sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//lib/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/RELEASE_NOTES.txt 3 -
+/wp-content/plugins/theme-configurator/mini.php 1 -
+/wp-content/plugins/wp-file-manager/lib/main.default.js 1 -
+/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx 1 -
+/try/wp-admin/setup-config.php 1 -
+//ckeditor/kcfinder/browse.php 1 -
+/main/wp-admin/setup-config.php 1 -
+/js/site.js 3 -
+/signup 1 -
+/1599439203386874758 1 -
+/tmp/vuln.php 1 -
+/plugins/system/debug/debug.xml 7 -
+/cms/ 1 -
+/wp-admin/setup-config.php 4 -
+/atom.xml 1 -
+/index.php 13 -
+/dede123/login.php 3 -
+/INSTALL.txt 3 -
+//new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/login/login.php 1 -
+/files/ 1 -
+/old-site/ 1 -
+/wp2/wp-includes/wlwmanifest.xml 39 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1410
+69.203.13.175 70 858 148332109 20200927235229
+74.64.130.246 70 872 150527013 20200923164331
+24.164.137.123 54 867 169030365 20200930192324
+74.73.4.228 48 693 141711252 20200911211518
+69.123.103.88 43 630 108857178 20200928174016
+108.27.255.44 43 728 154980804 20200929124923
+51.158.117.175 39 90 12080668 20200906204011
+163.172.191.147 38 77 7627894 20200904175818
+100.34.236.115 36 512 87878947 20200914143942
+71.167.38.44 35 564 113577784 20200919111535
+69.171.251.5 0 1 497177 
+172.58.230.189 1 1 34454 20200924140110
+69.203.67.222 8 112 22097056 20200905214023
+108.29.178.42 4 56 11048528 20200924103633
+160.39.195.148 4 56 11048528 20200908110145
+101.51.74.94 1 1 34454 20200915223403
+129.213.153.68 4 4 137816 20200916132116
+34.222.4.25 1 1 34454 20200907090322
+172.58.231.38 2 40 5499145 20200912173842
+209.99.160.199 1 1 15296 20200924033633
+184.153.20.82 12 168 33145584 20200925162136
+99.203.118.232 4 56 11048528 20200925073733
+73.150.245.38 4 118 34969720 20200928214741
+107.77.223.81 3 55 11014074 20200914175913
+123.235.25.214 1 28 4628915 20200914020156
+216.165.95.144 1 50 9840263 20200905112418
+34.239.169.255 1 1 34454 20200927205501
+173.225.52.219 4 55 11047723 20200904120326
+218.250.72.233 3 55 11047853 20200916134107
+173.46.96.12 4 56 11048528 20200921113035
+173.252.87.14 0 1 58327 
+172.58.227.42 10 149 26414557 20200925155255
+173.252.79.111 0 1 497177 
+18.188.164.91 1 1 34454 20200904095850
+174.244.146.231 4 56 11048528 20200928102623
+71.190.214.227 1 1 34454 20200911205140
+216.165.95.167 1 2 181884 20200907093511
+52.183.0.139 1 1 34454 20200910170522
+174.110.33.181 4 34 1879097 20200923015518
+52.250.65.54 0 1 375838 
+31.148.21.253 1 15 3177119 20200903053352
+34.242.21.168 3 3 65843 20200908175056
+74.66.128.93 7 170 45098629 20200909142426
+69.94.58.75 9 140 23640171 20200909162030
+173.252.95.24 2 20 3061311 20200901150206
+99.203.119.58 2 39 4696706 20200923121038
+148.75.51.195 4 56 11048528 20200913125101
+174.225.136.164 8 115 23167624 20200923161230
+74.73.38.111 1 35 3564664 20200901084426
+68.192.153.255 4 56 11048528 20200902092155
+67.254.165.154 16 186 28377656 20200903131552
+66.108.236.179 3 55 11047853 20200907211354
+67.243.134.10 6 91 14187478 20200914183750
+31.13.115.4 1 1 34454 20200902192923
+146.203.130.213 33 473 85354736 20200913182719
+174.198.13.155 1 8 269372 20200902123526
+174.68.149.244 0 1 460772 
+119.123.123.72 1 1 34454 20200928092910
+66.220.149.116 0 2 556996 
+68.132.153.95 4 56 11048528 20200910155428
+172.58.227.37 14 210 40678995 20200920201902
+96.250.118.106 12 168 33145584 20200913235849
+35.167.138.246 1 1 34454 20200915180251
+207.96.81.152 12 118 23338970 20200910165703
+93.124.105.236 1 1 34454 20200901190903
+99.203.118.153 4 65 16170149 20200902160903
+181.214.1.195 1 1 34454 20200920162209
+173.252.95.29 0 1 497177 
+68.84.207.47 3 46 7172085 20200919194842
+108.41.197.16 4 106 20888921 20200919130006
+3.235.162.245 1 1 15296 20200902114944
+107.77.76.53 1 1 34454 20200903191913
+174.244.146.59 4 56 11048528 20200914165626
+148.75.209.161 4 56 11048528 20200929221141
+141.126.127.128 3 28 4204202 20200922174713
+99.203.118.164 4 55 11047723 20200901203056
+207.237.89.189 8 112 22097056 20200918095816
+218.214.174.74 6 110 22095706 20200929194058
+34.219.156.194 2 2 68908 20200925092002
+54.39.243.183 6 6 169205 20200908130019
+202.62.86.212 1 1 34454 20200924204309
+172.58.191.9 2 17 3359003 20200926142443
+47.17.155.61 4 66 14679888 20200916171432
+99.203.119.247 5 56 11082177 20200928191622
+107.77.106.28 9 148 26048032 20200905234111
+99.203.119.156 4 119 35741852 20200924150809
+66.220.149.32 0 16 4388535 
+69.119.210.86 4 56 11048528 20200909124819
+40.77.190.14 0 1 58327 
+24.47.108.160 23 328 63323449 20200917182711
+150.108.240.170 3 54 11047048 20200902180319
+96.239.123.233 3 54 11013269 20200914115812
+40.74.247.23 3 3 103362 20200923095643
+40.77.189.213 0 1 33498 
+67.245.46.198 4 56 11048528 20200918194221
+213.168.249.115 2 2 0 20200926052445
+73.29.154.185 4 56 11048528 20200914230000
+52.183.102.134 3 3 103362 20200923200700
+68.197.248.47 4 56 11082307 20200913182250
+3.233.212.58 4 4 137816 20200917122955
+173.252.95.11 1 7 3221713 20200908170002
+24.193.222.101 4 56 11048528 20200916154201
+190.124.30.123 1 10 799630 20200928183800
+174.204.140.185 3 55 11014074 20200904082326
+174.198.199.24 12 149 25237356 20200902110648
+106.200.158.163 1 29 4637947 20200918062534
+172.58.227.84 4 55 11047723 20200911202853
+69.171.251.16 3 25 5955495 20200901150210
+216.165.95.152 1 8 288721 20200909144549
+67.80.58.172 4 104 29955634 20200924211041
+86.148.58.36 0 2 1186390 
+91.236.116.14 1 1 34454 20200914072404
+159.203.112.166 3 24 677803 20200916074652
+172.58.229.132 4 64 11405073 20200928130024
+108.6.228.166 22 342 59006613 20200929195318
+54.224.133.41 1 1 34454 20200911181023
+99.203.118.159 4 56 11048528 20200901102324
+24.0.204.229 21 333 54580932 20200926124437
+186.205.70.136 1 2 181884 20200930064235
+67.254.183.132 1 1 34454 20200927152957
+216.165.95.188 3 53 9901416 20200909131636
+100.33.113.112 4 56 11048528 20200903232902
+74.91.23.74 2 2 68908 20200920060045
+172.58.228.129 4 55 11047723 20200929174437
+108.29.157.166 4 56 11048528 20200927220046
+3.94.211.29 1 1 34454 20200913094301
+96.246.221.80 7 111 22062602 20200917172945
+103.68.40.229 1 1 34454 20200924030548
+35.245.188.175 13 29 853753 20200916074506
+159.123.253.1 2 102 19682136 20200915090943
+107.77.106.123 5 66 12517547 20200925103459
+69.171.251.38 0 3 69898 
+151.138.13.148 4 4 137816 20200923015337
+99.203.118.184 1 1 34454 20200908211938
+172.58.228.184 4 56 11048528 20200922173420
+67.254.245.2 4 56 11048528 20200909015439
+95.217.207.28 1 1 34454 20200903000246
+99.203.118.108 5 89 13942910 20200908143038
+69.206.114.210 4 56 11048528 20200906101316
+192.71.142.35 1 1 34454 20200910000756
+52.24.148.130 2 2 68908 20200920091518
+54.244.22.68 2 2 68908 20200921091946
+38.77.197.168 1 1 34454 20200924033250
+98.13.230.111 31 486 102785757 20200917104759
+100.26.189.195 1 1 34454 20200929125746
+173.56.77.142 10 146 25025892 20200906221418
+24.47.175.165 1 1 34454 20200925150549
+208.125.20.35 4 56 11048528 20200913183710
+173.252.95.4 0 2 769190 
+173.252.87.6 0 8 1673351 
+72.229.241.34 2 18 717255 20200904220430
+68.129.176.2 4 36 3139495 20200917170247
+188.251.204.253 1 15 3177119 20200913180849
+172.58.238.178 12 165 33143169 20200920160148
+98.14.125.188 8 89 13238900 20200905171753
+174.204.140.121 4 55 11047723 20200926190933
+72.226.119.114 8 212 41777842 20200902125252
+34.218.255.148 1 1 34454 20200915085950
+174.204.132.157 2 7 299618 20200906092408
+3.231.65.244 1 1 34454 20200901125245
+107.77.76.89 4 56 11048528 20200903232420
+174.204.143.42 1 1 34454 20200926182613
+98.14.145.197 12 212 36568957 20200928175725
+166.137.240.77 1 1 34454 20200924164540
+212.103.49.81 6 6 206724 20200915230054
+172.58.231.19 4 56 11048528 20200922132649
+157.55.39.93 0 1 58327 
+24.5.176.41 1 1 34454 20200909211912
+23.95.68.126 4 4 103362 20200928001403
+67.254.147.242 3 55 11047853 20200911160437
+104.248.236.204 1 1 34454 20200920064434
+66.220.149.14 2 16 2740132 20200902192913
+24.46.55.213 4 56 11048528 20200904153820
+24.190.104.189 3 55 11047853 20200918151712
+207.237.105.17 7 111 22096381 20200909143159
+31.13.115.15 0 1 9447 
+174.197.129.76 4 56 11048528 20200917215653
+216.165.95.158 4 55 11047723 20200926023431
+40.77.190.220 1 3 93674 20200916052508
+172.58.228.75 4 55 11047723 20200926091547
+108.41.214.221 4 56 11048528 20200906093111
+72.229.101.12 13 179 33669978 20200929095306
+89.203.251.112 1 1 34454 20200921055018
+174.197.203.228 4 71 17332056 20200930161349
+107.77.70.89 0 12 421386 
+72.80.64.197 4 119 35387872 20200927235446
+157.55.39.188 0 1 11094 
+47.17.6.206 8 93 14188828 20200924220301
+172.58.230.132 4 55 11047723 20200925144058
+52.35.117.102 9 9 197529 20200930145636
+3.95.185.61 3 3 103362 20200926221822
+99.203.119.39 3 21 1791959 20200930094845
+99.203.119.222 4 56 11048528 20200913235805
+94.231.136.137 1 10 799630 20200916093421
+66.220.149.119 0 4 1147499 
+148.75.68.124 18 298 55595056 20200929112351
+103.54.43.193 2 2 68908 20200926163603
+122.2.97.108 1 1 34454 20200923112234
+110.227.157.28 1 1 34454 20200928051336
+206.189.144.71 2 2 68908 20200922183556
+96.224.227.165 11 200 36290027 20200929113437
+174.197.141.77 8 93 14188828 20200917192903
+207.46.13.148 0 3 92227 
+69.171.251.27 0 1 497177 
+157.55.173.42 2 2 68908 20200908053938
+172.58.229.100 4 56 11048528 20200904102146
+50.237.234.7 6 91 14187478 20200913171517
+72.226.51.30 4 56 11048528 20200912192845
+173.252.95.21 1 25 5581580 20200908170004
+66.220.149.23 0 12 2044433 
+69.203.65.175 8 112 22097056 20200919123232
+31.13.115.6 0 3 70067 
+98.7.39.157 4 56 11048528 20200925132139
+198.27.85.233 1 1 34454 20200910133226
+180.163.220.68 0 3 1029752 
+31.13.127.22 1 15 1867891 20200901150206
+51.103.48.182 1 1 34454 20200905160329
+66.65.92.92 16 320 50804202 20200930125403
+216.165.95.169 4 55 11047723 20200929001152
+99.203.119.144 2 8 301578 20200911124558
+69.171.251.9 0 1 386312 
+69.171.251.31 0 1 497177 
+87.106.204.37 5 5 172270 20200916045504
+172.79.203.226 4 56 11048528 20200906231509
+142.105.48.62 4 56 11048528 20200922234639
+99.203.119.190 4 56 11048528 20200916125308
+68.198.148.40 4 56 11048528 20200915024653
+54.189.133.81 1 1 34454 20200928041155
+8.210.11.198 2 2 68908 20200928112511
+24.11.157.52 5 61 11312380 20200905185720
+35.227.79.102 2 2 68908 20200922230000
+51.222.43.159 6 6 169205 20200917082527
+93.124.60.35 1 1 34454 20200919205536
+107.77.106.16 4 55 11047723 20200926090824
+172.58.230.216 4 56 11048528 20200903171156
+45.33.50.204 2 2 68908 20200930015641
+51.77.246.205 2 53 10987375 20200908140641
+184.153.15.216 1 19 637888 20200901150830
+174.204.128.235 1 1 34454 20200903184506
+173.252.87.16 1 1 15916 20200904182337
+13.66.212.12 0 1 13732 
+99.203.119.7 4 56 11048528 20200904164338
+173.252.87.8 0 1 497177 
+173.252.95.119 0 3 1014280 
+209.58.151.124 4 6 795027 20200930061044
+139.167.190.23 0 1 553693 
+24.90.95.34 3 32 2391554 20200927134842
+174.244.128.171 13 192 36963402 20200906025155
+72.226.112.97 3 55 11047853 20200928010437
+185.246.65.102 1 1 34454 20200913060232
+52.12.84.29 1 1 34454 20200908090234
+108.14.103.247 4 56 11048528 20200921111645
+5.173.96.129 4 39 4753574 20200903150720
+24.90.195.31 6 88 12926275 20200928111131
+172.58.27.32 0 2 841376 
+72.227.171.5 3 55 11047853 20200919200503
+67.85.212.185 3 54 11047048 20200916232110
+172.58.227.100 3 54 11013269 20200907171204
+23.100.44.36 0 1 343998 
+40.74.224.129 3 3 103362 20200925202427
+72.94.81.202 3 55 11047853 20200925094739
+107.77.70.79 4 55 11047723 20200915030347
+174.225.136.190 3 36 3125004 20200930141018
+66.108.235.170 12 168 33145584 20200925174716
+174.225.10.227 4 56 11048528 20200919142224
+18.220.18.188 3 3 103362 20200904035025
+69.202.244.44 4 56 11048528 20200916164928
+173.252.79.19 0 1 497177 
+172.58.228.151 4 55 11047723 20200906101506
+107.77.76.114 7 73 14770792 20200920200514
+172.58.228.64 8 93 14188828 20200923121937
+88.18.162.144 1 1 34454 20200929171315
+204.9.73.221 1 1 34454 20200922005904
+107.77.76.127 11 164 31690054 20200920094720
+24.46.64.25 5 107 20889596 20200909155540
+67.245.237.143 3 55 11047853 20200914161137
+192.36.248.249 1 1 34454 20200926194723
+149.68.7.123 18 229 35885510 20200927232653
+72.76.240.143 4 56 11048528 20200906081137
+99.203.118.161 0 4 2300402 
+52.162.177.174 1 1 34454 20200929192531
+24.90.206.49 7 111 22062602 20200912133818
+68.132.11.167 1 20 588744 20200902154727
+209.122.206.66 4 56 11048528 20200904214048
+64.18.9.222 2 40 8567744 20200920183335
+150.108.240.203 1 1 34454 20200915192939
+120.21.66.42 6 110 22095706 20200929181620
+212.162.148.10 1 1 34454 20200913175231
+52.188.147.226 3 3 103362 20200911160859
+69.171.251.33 0 1 45017 
+67.243.217.97 24 487 97016977 20200917112652
+106.12.198.40 1 1 34454 20200911045719
+173.252.95.34 0 1 497177 
+52.183.1.153 0 1 560319 
+172.58.231.47 4 58 11229456 20200905070626
+174.244.176.201 5 77 18394105 20200903160600
+159.192.185.93 1 1 34454 20200926112249
+174.197.128.205 2 10 314084 20200918140650
+40.112.253.190 1 1 34454 20200909083318
+52.163.48.191 3 3 103362 20200905000121
+151.205.166.180 4 56 11048528 20200903083416
+52.156.72.144 1 1 34454 20200918160055
+174.197.130.71 8 71 6437897 20200918095518
+186.121.201.211 1 1 34454 20200908194713
+13.91.86.96 0 1 553693 
+13.66.192.98 1 1 34454 20200911185611
+159.69.249.178 1 1 34454 20200914081543
+67.83.44.89 2 10 452461 20200906015807
+51.104.244.243 1 1 34454 20200924181157
+108.41.3.127 8 112 22097056 20200924235510
+139.59.231.85 1 1 34454 20200929211818
+40.77.189.185 3 11 176769 20200923054710
+94.155.33.79 1 1 34454 20200927213059
+69.204.252.38 4 75 11660063 20200930173556
+68.199.19.47 3 32 1247523 20200915225538
+150.108.240.150 4 56 11082307 20200902180629
+68.199.219.237 24 385 85818568 20200916080052
+159.89.174.51 2 2 68908 20200926111553
+166.137.252.84 4 56 11048528 20200914111318
+173.68.57.24 10 139 29966298 20200926123542
+68.173.35.113 4 56 11048528 20200925171311
+173.252.95.9 0 7 1155511 
+107.77.70.22 4 56 11048528 20200916233656
+52.188.2.127 1 1 34454 20200926231545
+64.71.131.244 1 1 34454 20200928234945
+72.80.136.68 19 238 38130527 20200929235246
+174.225.133.233 12 153 27627243 20200908135057
+40.78.88.119 1 1 34454 20200921161810
+148.75.153.221 12 130 17329128 20200929205522
+72.76.113.166 5 66 11848158 20200929080954
+149.68.242.122 2 2 68908 20200902132337
+172.58.239.92 1 3 185337 20200922173123
+52.242.32.86 1 1 34454 20200909225851
+74.101.107.65 4 56 11048528 20200906111814
+72.226.70.28 12 201 36283184 20200927215715
+168.63.246.65 6 6 206724 20200907011133
+165.227.210.170 1 18 417541 20200905043010
+68.197.251.123 3 55 11047853 20200921054803
+172.58.225.43 21 324 63374461 20200927163906
+34.222.51.7 1 1 34454 20200926141027
+31.13.115.7 2 26 6270123 20200902192925
+172.58.227.146 5 69 12661656 20200926102634
+67.245.21.158 5 107 20889596 20200916130459
+172.58.230.145 7 110 22061797 20200920210027
+24.161.62.3 26 398 79587158 20200924121325
+24.168.73.142 18 320 58744614 20200929041706
+36.71.234.248 1 1 34454 20200902232143
+95.24.139.108 1 1 34454 20200928062715
+69.122.86.9 4 56 11048528 20200923193802
+104.214.144.64 3 3 103362 20200922110339
+89.183.84.216 0 1 428506 
+108.30.91.237 4 41 4433485 20200914052110
+173.252.79.21 0 1 497177 
+69.171.251.29 0 4 528681 
+51.141.186.105 1 1 15296 20200904162928
+172.58.228.120 4 55 11047723 20200926122636
+172.58.231.56 4 55 11047723 20200906130503
+99.203.118.238 4 56 11048528 20200904232607
+68.173.145.202 7 111 22096381 20200930110231
+150.108.240.96 1 41 5755907 20200903115517
+174.244.145.157 2 8 490753 20200926103124
+13.56.140.90 2 2 68908 20200907203628
+40.88.128.64 2 2 68908 20200923195542
+113.161.33.41 1 1 34454 20200924041403
+69.202.149.116 3 49 2475015 20200911001838
+52.160.66.13 1 1 34454 20200920162834
+157.55.39.57 0 2 4108 
+99.203.118.93 8 112 22097056 20200921025214
+159.89.159.173 3 3 103362 20200930235645
+68.196.217.210 4 56 11048528 20200904214455
+116.96.77.133 1 1 34454 20200912173015
+40.77.188.58 1 1 44432 20200916052508
+110.136.56.3 0 1 367777 
+112.215.241.136 2 2 68908 20200902081430
+69.115.26.18 1 1 34454 20200912150751
+172.58.230.128 3 12 563470 20200925174151
+174.244.144.251 8 112 22097056 20200925154309
+52.250.15.70 1 1 34454 20200906223105
+3.231.146.44 1 1 15296 20200902114944
+54.148.220.29 2 2 68908 20200911091803
+186.206.254.107 0 1 289342 
+107.77.76.46 3 21 1879608 20200911143218
+67.87.229.177 16 286 48014436 20200907170149
+74.65.218.79 3 55 11047853 20200924211014
+67.254.196.215 7 83 12906995 20200915124922
+77.74.177.114 1 1 34454 20200908063131
+173.252.95.31 0 2 10759 
+66.220.149.2 0 1 2124 
+107.77.106.62 4 56 11048528 20200929132706
+142.255.96.146 12 168 33145584 20200925171851
+51.143.40.212 1 1 34454 20200908231658
+174.197.152.113 4 56 11048528 20200926172330
+174.197.137.91 5 26 2088166 20200926132323
+174.244.128.191 7 111 22062602 20200928221457
+174.242.144.59 8 193 53430424 20200916230318
+87.106.169.180 2 2 68908 20200915232823
+172.58.231.69 4 55 11047723 20200915102324
+67.245.28.115 4 132 40754488 20200901081322
+172.58.228.136 4 56 11048528 20200913132642
+40.65.97.230 1 2 342872 20200909161138
+172.58.227.116 4 56 11048528 20200922112454
+34.216.127.0 2 2 68908 20200910191732
+172.58.231.62 6 72 11706651 20200930210023
+156.218.61.165 1 1 34454 20200915201619
+34.68.172.87 2 2 68908 20200928015132
+137.83.250.151 1 51 9841068 20200925105533
+172.58.231.85 1 2 181884 20200923175840
+68.117.156.43 4 56 11048528 20200917113400
+174.197.144.97 4 55 11047723 20200909095303
+71.198.166.53 3 39 4387162 20200919113751
+87.106.168.187 1 1 34454 20200923171229
+140.163.254.150 4 56 11048528 20200916074506
+67.243.208.187 15 154 17622859 20200927090558
+72.229.153.168 16 259 48110634 20200924042052
+108.30.88.34 22 334 66289818 20200910111538
+160.79.218.151 3 55 11047853 20200914121917
+31.223.48.238 1 10 799630 20200925083845
+99.203.118.74 13 173 33409436 20200906195118
+103.54.43.199 3 3 103362 20200927223735
+35.224.97.180 1 1 34454 20200903204728
+198.179.137.214 3 71 11222079 20200910091817
+52.151.22.115 0 1 460772 
+35.187.132.213 1 1 34454 20200901000338
+24.228.203.104 7 111 22062602 20200911090740
+149.68.242.121 7 75 12863074 20200922202910
+52.250.71.194 0 1 528262 
+54.71.3.65 1 1 34454 20200925185229
+66.108.65.245 4 56 11048528 20200904071816
+172.58.231.67 1 5 263852 20200927193843
+173.252.95.3 0 1 21597 
+108.6.37.28 4 56 11048528 20200927010240
+173.252.87.10 0 1 564865 
+69.202.241.132 4 56 11048528 20200901115146
+52.10.98.145 2 2 68908 20200928041155
+172.58.227.51 8 110 22095446 20200927191131
+100.2.211.195 12 173 33410073 20200927004647
+172.58.230.172 4 56 12175610 20200914114447
+98.113.150.15 20 292 48321147 20200917123315
+36.73.82.60 1 1 34454 20200907230914
+207.38.145.93 3 55 11047853 20200922232853
+24.184.182.164 3 32 1883051 20200904174753
+125.166.129.99 1 1 34454 20200929150343
+220.181.51.108 1 1 34454 20200901112935
+71.127.55.44 4 56 11048528 20200903114709
+174.244.211.238 1 1 34454 20200920214345
+172.58.228.218 4 55 11047723 20200913100550
+99.203.118.36 4 56 11048528 20200913183919
+70.23.89.151 8 139 32483983 20200928232216
+103.253.1.10 1 1 34454 20200902032201
+206.252.210.58 6 91 14187478 20200928153718
+24.34.165.254 4 56 11048528 20200916234300
+99.203.118.144 4 56 11048528 20200925143435
+24.161.53.191 4 56 11048528 20200924101648
+96.250.243.94 18 240 49673400 20200911205219
+216.49.59.80 4 71 16736303 20200922201131
+172.58.228.0 4 56 11048528 20200918185728
+163.172.191.214 11 51 6817719 20200926141609
+172.58.228.51 4 56 11048528 20200908215034
+114.124.161.187 3 3 103362 20200902074750
+107.77.224.12 8 112 22097056 20200912003451
+132.145.156.154 1 1 34454 20200929123747
+51.141.179.64 0 1 378429 
+40.77.189.30 0 2 54345 
+40.74.122.22 1 1 34454 20200904015647
+166.137.8.111 8 111 22096251 20200908141219
+116.203.235.109 1 1 15296 20200914175541
+173.252.95.13 1 2 455142 20200901150235
+71.88.108.148 4 56 11048528 20200918103822
+167.99.100.238 10 10 344540 20200928083806
+68.198.246.228 11 148 25202902 20200914095232
+95.43.102.149 4 56 11048528 20200924012150
+67.87.228.154 13 91 13629368 20200919233601
+165.227.147.44 1 1 34454 20200928111816
+73.129.159.239 4 56 11048528 20200902164218
+107.77.70.76 12 179 36841957 20200906144415
+207.46.13.73 0 1 43251 
+58.30.141.60 2 2 68908 20200921133448
+99.203.118.35 1 1 34454 20200920111954
+172.58.230.152 4 56 11048528 20200921173423
+98.113.56.79 3 55 11047853 20200927215047
+98.113.220.33 8 112 22097056 20200917064549
+158.140.195.27 3 54 11047048 20200926021413
+69.27.238.234 8 112 22097056 20200909103950
+172.58.227.156 4 56 11048528 20200925154009
+174.204.139.122 7 107 20263097 20200912190442
+74.104.157.108 1 51 9841068 20200919115400
+74.72.106.233 21 374 66775484 20200924215356
+73.125.156.51 4 56 11048528 20200905224743
+99.203.118.207 3 16 1659040 20200912145358
+98.113.81.99 9 159 30597203 20200914133528
+199.34.83.112 5 32 785854 20200919173049
+172.58.228.39 10 112 22164354 20200922214532
+103.93.201.14 1 1 34454 20200926114651
+13.65.81.209 3 3 103362 20200925022234
+184.153.29.228 31 393 69810809 20200928102124
+35.190.213.73 18 78 1793348 20200920155929
+67.243.136.196 3 55 11047853 20200921170006
+174.197.146.145 4 56 11048528 20200905170731
+174.198.22.2 3 55 11047853 20200922145953
+212.58.121.183 0 2 1186390 
+68.199.252.96 4 29 1901953 20200908171430
+69.127.61.83 2 14 995494 20200914094430
+178.128.209.169 5 5 172270 20200922071316
+51.141.177.197 0 1 428506 
+98.13.204.159 4 56 11048528 20200918103006
+52.148.72.113 2 2 68908 20200912215648
+96.250.83.53 4 56 11048528 20200908174258
+47.18.244.127 4 56 11048528 20200911204410
+150.108.240.116 10 156 26034961 20200911142000
+72.229.231.223 2 2 68908 20200913183752
+108.41.214.13 4 92 25603131 20200922230127
+99.203.118.249 4 56 11048528 20200907094257
+40.89.147.45 4 4 137816 20200910190344
+173.252.87.7 1 9 2349662 20200904182337
+216.158.132.94 4 55 11047723 20200923154112
+223.182.16.121 1 1 34454 20200911072503
+89.203.249.130 2 2 68908 20200921000257
+98.121.224.182 2 19 632523 20200908154702
+76.78.204.166 10 166 33144234 20200930231054
+172.58.228.132 4 55 11047723 20200903204252
+36.84.86.86 3 3 103362 20200913231248
+106.51.111.118 1 1 34454 20200911003027
+185.217.0.138 2 2 68908 20200921090045
+107.77.70.126 7 110 22061797 20200923033546
+71.105.245.34 8 112 22097056 20200918125054
+99.203.118.132 3 36 3125004 20200925123941
+72.90.173.26 4 56 11048528 20200906133717
+100.37.103.45 4 56 11048528 20200917080544
+174.225.133.146 4 56 11048528 20200905193815
+34.209.214.116 2 2 68908 20200923111943
+31.13.127.21 1 17 4100089 20200901150206
+49.12.126.16 1 16 399538 20200911033418
+71.230.194.118 3 7 332760 20200917221632
+36.72.250.77 1 1 34454 20200913102052
+216.165.95.165 16 202 35024681 20200921103123
+24.190.88.150 3 55 11047853 20200911220315
+67.245.28.157 13 182 33751116 20200929131610
+103.233.100.147 1 1 34454 20200930235458
+52.250.126.202 0 1 431389 
+45.127.134.91 3 3 103362 20200907060109
+68.198.59.246 8 112 22097056 20200914104302
+149.68.7.120 21 250 39617768 20200929135555
+172.58.229.201 10 100 14624950 20200910153702
+173.252.95.5 0 2 928566 
+99.203.69.217 1 3 226901 20200905140828
+72.226.108.194 4 106 20888921 20200928202159
+66.246.224.12 10 10 344540 20200929022143
+172.58.228.134 1 2 181884 20200916181810
+72.229.167.172 12 219 53774527 20200916143754
+66.220.149.9 1 1 34454 20200902192838
+107.77.76.55 7 86 12929173 20200909180751
+199.244.88.132 1 1 34454 20200911094403
+108.53.146.46 4 55 11047723 20200904194014
+202.62.73.202 6 84 14079186 20200925121316
+100.12.98.225 3 55 11047853 20200911214352
+40.74.69.98 1 1 34454 20200917073006
+67.245.230.160 2 83 12174680 20200914021218
+75.135.111.111 3 17 1662625 20200910234702
+174.204.128.68 7 111 22062602 20200914144614
+165.227.103.213 3 23 676998 20200910084807
+142.255.51.0 4 76 11436073 20200908115348
+197.210.65.149 2 2 68908 20200927203522
+192.71.224.240 1 1 34454 20200920072606
+107.77.106.55 4 56 11048528 20200914114733
+67.80.7.109 4 127 38443237 20200915225210
+18.219.155.116 1 1 34454 20200901164345
+159.89.43.233 3 23 676998 20200930021506
+69.171.251.12 0 2 994354 
+52.124.35.239 14 203 36284534 20200929182122
+68.173.110.26 7 88 12931579 20200909143612
+173.252.95.37 0 1 1960 
+172.58.227.64 4 55 11047723 20200907103649
+174.204.129.139 3 18 1677094 20200904124142
+8.12.52.2 1 51 9841068 20200916125020
+81.149.79.189 4 55 11047723 20200910164344
+107.77.76.132 7 111 22062602 20200928092824
+99.203.119.194 4 55 11047723 20200925082010
+67.80.52.38 4 56 11048528 20200923235203
+107.77.225.170 1 51 9841068 20200925080001
+5.196.64.109 8 23 6170519 20200905101531
+64.18.9.193 0 6 1337354 
+54.213.148.184 1 1 34454 20200917091050
+31.13.127.7 2 24 5080548 20200901150206
+108.21.217.89 3 54 11047048 20200928132817
+66.65.0.186 11 161 30598553 20200907143935
+98.14.54.208 4 56 11048528 20200912102620
+216.211.173.126 4 56 11048528 20200918123439
+100.12.86.71 4 56 11048528 20200930134212
+104.162.75.56 4 56 11048528 20200928215246
+59.89.15.102 1 1 34454 20200928074642
+135.84.157.159 8 120 22551601 20200924200326
+67.254.165.146 7 114 23507616 20200928163800
+172.58.228.29 8 91 14187218 20200928004043
+216.165.95.142 4 58 11265883 20200921155121
+96.246.44.28 3 55 11014074 20200914084628
+96.232.130.158 6 110 22095706 20200911153259
+38.67.199.130 4 106 20888921 20200911120706
+69.115.54.161 4 106 20888921 20200912182913
+3.237.48.1 1 1 34454 20200923041108
+117.69.151.181 1 1 34454 20200924030527
+99.203.96.141 3 35 2954730 20200917081232
+67.245.30.86 4 56 11048528 20200921214926
+209.235.190.98 3 54 11047048 20200916150154
+167.206.31.18 3 52 9919149 20200915102514
+107.77.225.116 4 56 11048528 20200907160447
+68.193.13.138 1 1 34454 20200911011122
+34.66.25.152 19 175 33338135 20200922013213
+166.137.252.89 9 113 22165289 20200918091353
+157.55.39.94 0 2 54309 
+99.23.131.153 0 1 564865 
+107.77.70.96 3 55 11014074 20200914092619
+99.203.119.180 4 56 11048528 20200923062716
+114.67.87.60 1 1 34454 20200914133147
+34.209.143.11 3 3 103362 20200907011407
+24.188.208.87 4 56 11048528 20200930185338
+34.209.234.250 3 3 103362 20200928011155
+166.137.252.77 8 77 12971420 20200912142133
+18.189.189.247 1 1 34454 20200924235946
+93.124.56.81 1 1 34454 20200927042921
+174.62.84.116 4 56 11048528 20200921214302
+185.229.144.22 3 3 103362 20200929035421
+101.108.175.220 1 1 34454 20200911121442
+35.164.175.217 2 2 68908 20200923111944
+42.115.131.167 1 1 34454 20200908053751
+69.202.151.117 10 139 27227319 20200924230559
+99.203.118.119 4 55 11047723 20200925160753
+174.197.136.68 4 56 11048528 20200907161258
+72.76.118.123 3 55 11014074 20200914181604
+99.203.119.104 4 56 11048528 20200911144238
+173.252.87.19 0 1 1960 
+108.46.139.200 5 65 11346696 20200922155540
+174.197.136.185 2 2 68908 20200906213751
+34.126.64.21 6 6 206724 20200906014609
+162.84.190.38 8 111 20748275 20200906201134
+69.124.119.179 8 121 25352578 20200903212248
+66.65.171.140 4 56 11072537 20200923141931
+108.30.238.227 4 71 16459713 20200917154123
+174.204.140.251 9 165 33042222 20200914120857
+98.13.58.180 4 56 11048528 20200904134827
+13.72.80.225 1 1 34454 20200910072020
+174.197.147.153 6 92 13059874 20200921120605
+82.80.249.214 1 1 34454 20200930150516
+24.228.188.14 26 352 61521890 20200921123200
+69.117.245.233 3 55 11047853 20200928201757
+98.113.92.135 6 109 22094901 20200927143213
+207.237.78.247 20 280 55242640 20200917033616
+66.220.117.250 3 55 11047853 20200901001659
+172.58.231.0 4 55 11047723 20200919075033
+107.84.254.180 4 56 11048528 20200919145843
+172.58.188.136 7 111 22062602 20200907162427
+172.58.230.146 3 16 1659040 20200903002124
+54.167.120.98 2 2 68908 20200906082903
+173.252.95.25 0 2 241066 
+180.163.220.4 0 10 1853201 
+68.233.176.29 5 80 12713369 20200902110751
+174.197.129.170 17 409 67082981 20200901154738
+107.77.106.116 4 50 5681043 20200928132021
+66.220.149.13 2 16 4087878 20200902192843
+74.71.160.15 14 178 33827426 20200916141026
+100.34.208.14 4 56 11048528 20200917181124
+150.108.240.76 3 55 11047853 20200902161340
+67.247.56.180 4 106 20888921 20200929115740
+40.77.191.74 0 2 25050 
+3.14.65.57 3 30 745174 20200915013500
+174.225.130.152 8 93 14189327 20200928081652
+176.9.8.180 3 14 4537939 20200909102654
+69.202.151.62 4 72 17384856 20200916175244
+213.109.169.17 4 4 137816 20200928060937
+23.106.193.124 1 1 34454 20200923104755
+69.121.146.172 16 233 47585619 20200910001852
+144.39.214.211 3 55 11047853 20200915123127
+3.17.148.70 3 3 103362 20200917230306
+40.83.147.91 2 2 49750 20200916175739
+72.89.253.242 7 161 31936774 20200921150745
+161.35.226.62 4 4 137816 20200915191935
+172.58.230.247 4 55 11047723 20200915062210
+51.159.23.217 2 2 68908 20200904160647
+66.220.149.8 3 24 4469048 20200902192925
+174.197.138.239 5 61 11312380 20200902212636
+66.108.44.232 1 51 9841068 20200929171417
+173.252.87.23 1 19 4208442 20200904182340
+162.84.128.157 8 112 22097056 20200908151956
+66.220.149.20 1 27 4881763 20200902192840
+99.203.119.149 6 59 12210751 20200914122617
+71.167.15.19 15 219 42360153 20200930131814
+180.245.162.177 1 1 34454 20200923115204
+172.58.228.2 1 1 34454 20200916222534
+177.223.107.24 1 12 1953144 20200902182023
+158.222.222.216 4 56 11048528 20200914231505
+74.73.243.102 4 56 11048528 20200919160824
+73.167.253.250 14 222 44125204 20200916084628
+107.77.70.87 9 113 22131510 20200917144142
+107.77.70.115 17 244 42370058 20200929113209
+125.162.208.254 1 1 34454 20200929004445
+175.44.42.172 1 1 34454 20200912034334
+98.14.43.142 5 64 11371028 20200918130330
+69.124.113.119 6 115 28484418 20200930210712
+74.65.205.4 3 55 11047853 20200917081004
+73.1.214.233 0 1 564865 
+107.77.70.21 3 55 11014074 20200917001548
+98.14.181.238 27 482 88908179 20200927182756
+98.113.58.116 7 106 19973755 20200910144957
+174.204.144.161 4 32 2394832 20200916140014
+172.58.227.18 4 55 11047723 20200908221105
+68.173.28.56 13 187 34984237 20200912111922
+98.0.225.62 8 112 22097056 20200916103950
+31.13.115.118 0 1 147430 
+99.203.118.123 2 33 2967515 20200923130009
+172.58.231.206 6 26 1277823 20200920181120
+66.66.97.225 7 111 22096381 20200924211233
+66.220.149.27 0 1 147430 
+24.191.53.179 4 56 11048528 20200927113531
+104.171.90.195 11 167 33111130 20200924143620
+74.108.133.79 4 56 11048528 20200904062007
+172.58.228.65 4 56 11048528 20200916110449
+185.100.87.41 1 1 34454 20200928041851
+172.58.231.172 1 1 34454 20200923212811
+100.37.91.193 4 56 11048528 20200903171024
+96.250.90.94 3 55 11047853 20200930125218
+107.77.76.99 5 58 11233060 20200913135031
+40.77.167.90 0 1 8101 
+107.77.70.93 4 56 11048528 20200902163408
+35.167.124.19 2 2 68908 20200922121355
+51.15.172.43 1 1 34454 20200902215056
+67.247.97.216 19 470 80262847 20200930192747
+98.113.42.51 4 56 11048528 20200904172657
+68.196.220.201 14 222 44125204 20200925043225
+99.203.119.29 4 56 11048528 20200922233854
+24.185.48.85 4 56 11048528 20200910080622
+166.170.0.94 1 1 34454 20200909213617
+52.158.241.181 1 10 145749 20200914175127
+107.77.76.107 3 14 1588611 20200908161535
+36.71.232.102 1 1 34454 20200920030528
+207.126.88.11 1 51 9841068 20200913211419
+167.114.250.111 1 1 34454 20200907233804
+192.71.3.26 1 1 34454 20200928084851
+69.113.100.188 10 147 25236006 20200930235425
+99.203.118.54 1 1 34454 20200921212611
+44.235.74.4 1 1 34454 20200905000823
+107.77.76.34 7 120 25341946 20200908023226
+173.2.161.187 4 55 11047723 20200929111129
+69.171.251.17 0 11 3140046 
+107.77.76.64 1 1 34454 20200906172315
+167.99.182.82 2 2 68908 20200927143219
+174.197.128.117 4 64 12432898 20200902155206
+86.125.99.94 0 1 593195 
+173.252.83.6 0 1 497177 
+98.7.27.29 8 112 22097056 20200925103424
+46.197.114.208 1 11 1392825 20200901093459
+47.31.25.104 1 1 34454 20200906223313
+173.56.242.102 1 1 34454 20200903031400
+172.58.227.117 8 112 22097056 20200901202831
+66.220.149.15 1 5 86196 20200902192916
+52.224.19.152 1 1 34454 20200930160930
+52.247.239.76 0 1 423730 
+24.90.214.98 3 55 11047853 20200924230402
+107.77.70.130 4 56 11048528 20200913152351
+172.58.230.229 4 56 11048528 20200909135816
+67.86.125.46 26 449 78276913 20200926205116
+47.18.138.49 4 88 13942235 20200907192434
+66.249.91.172 1 1 34454 20200926171759
+70.35.199.129 4 4 137816 20200926134739
+66.65.110.151 4 56 11048528 20200914155551
+174.204.143.56 4 56 11048528 20200922110008
+178.79.128.218 3 3 68908 20200910221246
+40.77.190.91 0 1 14469 
+174.204.138.139 8 112 22097056 20200922012247
+166.137.252.19 1 1 34454 20200920192121
+100.2.55.85 8 112 22097056 20200925010850
+24.104.247.59 8 143 34041473 20200923175949
+24.90.0.79 27 454 82374202 20200928164146
+47.17.5.218 5 51 6647242 20200923060514
+216.165.95.180 3 54 11013269 20200909014633
+216.165.95.172 3 54 11013269 20200909085752
+173.252.95.18 0 11 2574801 
+66.108.46.147 4 56 11048528 20200901062920
+191.101.223.157 1 1 34454 20200928153406
+180.163.220.5 2 21 2826551 20200914143417
+54.148.243.199 2 2 68908 20200919091813
+34.212.188.168 3 3 103362 20200914011343
+173.252.95.6 0 1 386312 
+172.58.227.82 4 56 11048528 20200902115955
+66.249.83.205 1 1 34454 20200905165758
+72.68.225.171 24 388 77336996 20200919084308
+52.255.236.126 1 1 34454 20200924184341
+216.165.95.139 1 1 34454 20200902082247
+72.227.148.87 13 145 17847123 20200917150225
+108.30.163.247 3 55 11047853 20200909154705
+71.105.210.155 4 56 11048528 20200927130825
+74.90.174.115 12 201 35949448 20200921212304
+173.252.95.26 0 2 36951 
+51.141.178.56 3 3 103362 20200904131643
+98.15.129.196 2 14 562020 20200923215946
+159.89.43.197 3 23 676998 20200923033239
+52.156.79.78 0 1 386312 
+91.121.83.160 1 1 34454 20200905080828
+24.193.228.239 24 350 72757765 20200920164548
+100.2.239.206 8 93 14188828 20200904101603
+36.67.214.136 1 1 34454 20200903043423
+107.77.225.70 1 8 288721 20200930193755
+172.58.230.226 4 55 11047723 20200925110955
+18.237.234.145 2 2 68908 20200906014331
+99.203.119.209 2 45 7057321 20200916180931
+96.224.247.181 27 357 63114100 20200925225730
+100.37.231.153 3 19 1720345 20200901083814
+20.188.56.215 1 1 34454 20200927131709
+66.220.149.35 0 1 21597 
+182.232.151.190 1 1 34454 20200930073414
+99.203.119.57 1 50 9840263 20200927134230
+174.204.146.9 1 1 34454 20200909184308
+160.39.225.253 2 102 19682136 20200907102933
+24.193.143.224 3 115 34895539 20200901235127
+142.255.32.241 9 145 24991438 20200907001258
+192.36.53.165 1 1 34454 20200905002950
+31.13.115.116 1 1 34454 20200902193000
+172.58.231.170 15 193 33947550 20200921152729
+67.245.47.29 2 6 298306 20200903213009
+125.166.118.69 1 1 34454 20200919170515
+172.58.231.120 4 55 11047723 20200916231844
+195.201.165.48 4 55 11047723 20200906234014
+52.224.20.174 1 1 34454 20200903212450
+104.162.193.153 4 56 11048528 20200919004311
+172.58.230.197 5 60 11311575 20200916170048
+199.204.208.164 4 4 137816 20200920071146
+172.58.228.21 1 1 34454 20200916194905
+194.127.179.54 4 4 137816 20200906032332
+40.78.52.241 0 1 497177 
+31.13.115.3 0 1 33498 
+172.58.235.77 4 55 11047723 20200907110455
+76.30.47.122 0 3 1779585 
+76.80.245.234 4 62 13242734 20200902121323
+67.247.102.132 3 55 11047853 20200912101723
+67.254.244.184 4 56 11048528 20200917011302
+173.252.79.6 0 1 497177 
+34.101.81.157 4 4 137816 20200928120448
+172.58.227.56 1 14 470309 20200927211634
+139.155.16.233 1 1 34454 20200921024226
+52.250.49.203 0 1 415625 
+158.222.203.96 3 55 11047853 20200918001823
+209.122.252.48 4 56 11048528 20200923134300
+31.13.115.21 0 4 624699 
+64.18.9.250 0 7 217055 
+67.247.106.134 12 168 33145584 20200926212925
+174.197.135.102 5 71 14259426 20200903120021
+166.137.252.78 1 1 34454 20200929222813
+98.14.244.106 4 37 3140300 20200927194127
+52.40.4.44 3 3 103362 20200921011221
+98.249.191.89 0 2 847460 
+3.91.147.102 1 1 15296 20200902114934
+188.93.56.216 1 1 34454 20200901104621
+108.21.229.250 10 164 32031576 20200928005018
+85.103.183.95 1 1 34454 20200928123255
+175.44.42.214 1 1 34454 20200925034930
+173.252.95.118 0 8 2019262 
+99.203.118.158 4 56 11048528 20200901123009
+98.113.163.227 3 55 11047853 20200916132817
+94.204.31.229 3 58 12355639 20200928122438
+173.252.87.4 0 1 93636 
+99.203.119.193 4 55 11047723 20200926001535
+95.174.65.170 1 1 34454 20200930205126
+97.100.177.50 8 112 22097056 20200917105140
+184.75.61.220 3 55 11047853 20200926093754
+165.230.225.140 1 37 4326814 20200929095041
+123.17.105.108 1 1 34454 20200913002406
+141.149.35.112 0 1 564865 
+172.58.227.230 4 55 11047723 20200911161252
+84.157.157.15 0 2 857012 
+13.90.72.181 1 1 34454 20200906170244
+72.68.106.219 13 169 33180038 20200903003841
+52.151.1.25 1 1 34454 20200912160045
+52.247.213.145 0 1 105417 
+68.192.45.228 8 166 43367215 20200918090211
+68.129.175.65 4 56 11048528 20200905001853
+52.251.40.221 4 4 137816 20200904033130
+31.13.115.20 1 10 2060698 20200902192929
+173.252.87.13 0 1 497177 
+174.204.137.189 2 14 1612484 20200911062036
+172.58.228.251 10 102 15708102 20200909095635
+99.203.118.136 8 110 22095446 20200926124709
+67.254.195.174 4 56 11048528 20200913234052
+99.203.118.166 4 98 27828392 20200925221243
+24.193.213.69 1 17 585174 20200929181343
+68.174.114.24 6 91 14187478 20200927183209
+64.18.9.226 1 2 62982 20200915112034
+68.10.18.55 4 62 13225244 20200928220709
+67.81.57.32 5 57 11082982 20200929222002
+69.203.138.31 8 178 47707832 20200926003916
+47.89.254.33 1 2 48186 20200925030357
+23.240.234.236 1 51 9841068 20200909155514
+172.58.230.174 2 3 216338 20200913234550
+82.202.204.118 2 2 49750 20200905192246
+24.184.185.64 24 336 66291168 20200929085209
+49.145.238.112 0 1 386312 
+32.217.134.49 0 1 386312 
+35.226.251.24 1 1 34454 20200908194946
+71.8.90.174 1 1 34454 20200920153705
+99.203.118.133 8 98 14441485 20200925111450
+173.252.87.20 0 3 15156 
+72.80.171.81 4 56 11048528 20200920232836
+138.229.102.174 4 20 6376701 20200928071922
+69.122.193.97 4 56 11048528 20200921215003
+52.224.20.204 1 1 34454 20200914192013
+71.59.82.64 1 12 452255 20200910200401
+172.58.142.173 4 20 1858978 20200918180510
+45.63.91.191 3 3 103362 20200907071446
+68.129.235.58 2 70 10443806 20200926094751
+31.13.115.13 0 1 1960 
+68.132.95.70 4 55 11047723 20200913105636
+106.53.82.40 1 1 34454 20200906163011
+64.18.9.223 2 16 2480784 20200920183336
+69.125.9.144 8 118 22329726 20200927031018
+100.12.161.66 4 56 11048528 20200903144723
+150.108.240.84 1 1 34454 20200913230938
+74.66.194.159 4 56 11048528 20200923182704
+173.252.79.120 0 1 497177 
+73.157.210.127 9 73 14915564 20200910191854
+98.113.78.64 4 143 45643997 20200921165411
+166.137.252.125 13 205 48829207 20200929182701
+138.68.231.250 3 3 103362 20200922130828
+45.65.246.59 2 45 7108125 20200930200205
+173.2.238.127 12 168 33145584 20200920192343
+172.58.227.41 12 167 31796803 20200923055819
+118.137.170.172 1 1 34454 20200918115956
+74.89.181.231 3 55 11047853 20200901165927
+165.227.215.206 1 18 417541 20200917055607
+66.42.91.247 1 1 34454 20200930133536
+150.108.240.148 2 2 68908 20200903131556
+100.37.203.184 5 64 11572104 20200925120010
+47.17.142.16 12 164 30218658 20200916183027
+172.58.228.32 1 5 263852 20200927100543
+68.195.149.206 8 133 29871294 20200927111113
+97.95.255.104 11 159 31019868 20200904200436
+88.85.147.160 4 56 11048528 20200903185728
+66.108.98.117 4 56 11048528 20200918193229
+174.44.157.149 10 195 31904166 20200928102926
+138.197.182.45 5 5 172270 20200930231006
+174.244.178.21 12 173 33376294 20200904141622
+107.77.165.3 1 19 637888 20200927112653
+108.35.145.146 1 1 34454 20200918023517
+108.30.59.75 8 74 6280600 20200921122004
+207.46.13.166 0 2 54309 
+52.151.19.200 0 1 593195 
+180.190.82.16 1 1 34454 20200912063719
+173.252.95.17 0 1 386312 
+107.77.106.88 12 200 36005512 20200920201617
+70.238.175.40 3 55 11047853 20200911095809
+74.72.216.47 4 56 11048528 20200915084740
+174.197.145.206 4 67 11466329 20200904101218
+5.182.122.11 1 1 34454 20200914011819
+172.58.231.236 10 165 33143429 20200919085216
+68.174.143.202 14 222 44125204 20200921124307
+69.171.251.28 0 1 497177 
+34.66.87.205 1 1 34454 20200911154445
+184.73.90.224 4 14 1775413 20200926163628
+158.222.171.251 4 56 11048528 20200918214540
+88.20.56.129 0 1 460772 
+175.207.132.54 7 59 11163977 20200924044219
+23.102.12.181 3 3 103362 20200906020715
+67.254.245.108 4 56 11048528 20200924184944
+73.134.207.68 2 4 219791 20200907162254
+172.58.231.54 4 56 11048528 20200909052743
+72.90.255.196 3 55 11047853 20200925185435
+174.242.141.47 4 56 11048528 20200914181123
+69.171.251.15 0 1 497177 
+69.171.251.118 1 3 185337 20200901150205
+173.56.32.240 13 322 63944059 20200911164901
+172.58.228.204 1 5 263852 20200913162305
+186.249.251.76 1 16 3563431 20200909102220
+174.197.129.243 8 112 22097056 20200921140135
+74.72.153.235 4 117 35222733 20200911211520
+184.73.142.136 1 1 15296 20200902114944
+35.225.82.182 1 1 34454 20200903191931
+38.142.186.18 4 70 16469487 20200923125207
+99.203.118.42 4 56 11048528 20200917213236
+174.197.151.187 8 112 22097056 20200903131312
+148.75.52.49 4 56 11048528 20200911194559
+62.151.183.230 2 2 68908 20200914015327
+69.123.253.188 5 57 11082982 20200916231026
+68.183.210.56 3 3 103362 20200929033610
+67.245.105.241 10 146 25235201 20200907172339
+172.58.207.96 8 44 3750617 20200915002913
+66.220.149.4 1 10 1958966 20200902192909
+216.66.30.129 3 55 11047853 20200917115600
+24.190.176.83 3 97 27834500 20200923161212
+196.19.78.173 1 1 34454 20200911095752
+13.88.190.249 1 1 34454 20200917174401
+52.191.138.31 1 1 34454 20200930124003
+68.174.62.45 1 40 5388130 20200926024552
+172.58.229.95 3 34 2425045 20200923182127
+105.67.130.48 1 1 34454 20200907070150
+172.58.227.154 4 55 11047723 20200930095314
+67.254.242.238 5 157 30729989 20200925082644
+108.27.62.205 7 111 22062602 20200912160058
+52.35.34.113 1 1 34454 20200925121426
+173.68.98.188 4 56 11048528 20200916135247
+24.184.184.243 4 56 11048528 20200906181255
+50.62.177.97 1 1 34454 20200918101703
+85.116.118.226 7 104 19567836 20200926070837
+52.161.94.61 3 3 103362 20200925085128
+160.39.247.128 6 110 22095706 20200908161822
+84.17.47.12 1 1 34454 20200922085115
+173.252.95.10 0 5 1218434 
+52.254.77.96 1 1 34454 20200929104948
+107.77.106.81 4 56 11048528 20200909145310
+107.77.225.23 4 56 11048528 20200916142247
+69.121.54.246 12 149 25237356 20200928103249
+66.220.149.5 0 8 2659628 
+94.1.126.130 0 1 593195 
+51.143.90.89 0 1 420688 
+96.246.175.153 4 105 20888116 20200929002402
+34.219.13.66 2 2 68908 20200909233621
+74.73.224.118 12 130 17329128 20200905185701
+108.231.239.193 1 1 34454 20200907173009
+107.77.225.190 7 103 18601075 20200921145219
+54.184.34.147 1 1 34454 20200918143841
+69.171.251.30 0 1 497177 
+158.222.207.144 1 51 9841068 20200905154815
+69.171.251.21 1 2 35766 20200901150243
+148.77.111.131 1 51 9841068 20200914091123
+47.20.49.183 4 56 11048528 20200906082356
+174.244.144.44 1 1 34454 20200920172916
+174.197.132.32 7 105 19747512 20200908133656
+172.254.46.157 16 267 61587145 20200901131833
+108.29.95.190 3 55 11047853 20200929135830
+128.195.76.66 4 56 11048528 20200903180916
+172.58.231.124 3 18 3723069 20200911182503
+69.74.180.42 1 1 34454 20200902151215
+72.225.208.254 3 55 11047853 20200926174538
+84.17.60.215 1 1 34454 20200910015322
+96.246.154.227 4 56 11048528 20200906102613
+34.217.48.28 1 1 34454 20200911092855
+69.113.118.135 4 106 20888921 20200926141842
+24.46.217.84 9 146 25235331 20200915114207
+98.116.99.77 4 56 11048528 20200928094407
+100.37.247.55 4 56 11048528 20200910022005
+96.239.60.43 3 55 11047853 20200915231859
+128.230.142.2 4 56 11048528 20200913225808
+107.77.226.197 4 56 11048528 20200914091100
+115.187.43.207 1 13 2511383 20200910103104
+40.83.150.105 0 1 368222 
+35.232.77.33 2 2 68908 20200902011341
+184.153.42.141 6 110 22095706 20200923072157
+104.131.0.47 2 2 68908 20200927092521
+72.226.3.133 4 56 11048528 20200905091828
+165.230.225.176 1 33 2894382 20200927102945
+95.216.113.228 1 1 34454 20200929185130
+174.127.135.130 1 1 34454 20200919031620
+173.252.95.35 1 4 187461 20200901150202
+174.195.201.149 4 56 11048528 20200927122213
+174.204.128.11 4 56 11048528 20200902110231
+168.62.199.30 1 1 34454 20200927135026
+173.77.207.120 7 104 19129337 20200928213658
+184.153.121.35 1 36 3940502 20200925121055
+104.162.9.209 8 112 22097056 20200905115400
+115.178.211.149 1 1 34454 20200908030717
+99.203.118.143 2 10 1429477 20200925135119
+52.41.106.117 1 1 34454 20200916091700
+64.88.163.52 9 174 35653838 20200917150124
+52.247.216.134 3 3 103362 20200914234349
+172.58.229.37 10 143 26928097 20200922151614
+96.239.109.169 7 102 18442609 20200901203605
+108.21.193.2 4 56 11048528 20200910210728
+158.222.239.118 3 55 11047853 20200918131353
+172.58.231.110 1 1 34454 20200909143443
+148.74.163.238 11 244 63148912 20200914152830
+71.183.193.100 34 525 101520626 20200930115320
+216.165.95.171 4 55 11047723 20200909002754
+52.229.59.152 1 1 34454 20200923031432
+174.197.141.253 4 56 11048528 20200908125141
+13.91.94.1 0 1 349096 
+174.204.128.250 4 56 11048528 20200924184342
+144.168.199.79 8 40 12753402 20200929144037
+173.252.87.18 0 3 555339 
+107.77.106.65 4 56 11048528 20200902195907
+107.77.70.77 4 56 11048528 20200903195208
+180.163.220.66 1 19 4916856 20200914143413
+206.71.229.164 4 56 11048528 20200917154200
+172.58.142.219 1 1 34454 20200920104218
+52.199.157.209 3 3 103362 20200923022904
+75.100.206.138 8 49 6605003 20200917124229
+176.252.54.140 0 5 2965975 
+70.23.47.98 16 183 27116453 20200930130031
+107.77.106.119 2 7 445736 20200921171049
+69.126.148.116 6 74 8202334 20200921170318
+173.252.95.15 0 1 497177 
+68.173.164.122 3 55 11047853 20200928161025
+18.212.194.191 1 1 34454 20200930024930
+67.244.69.56 4 56 11048528 20200906155054
+107.77.76.20 9 148 26414505 20200928183339
+64.18.151.212 4 56 11048528 20200916131601
+24.90.115.187 8 112 22097056 20200903210225
+68.193.151.158 1 5 263852 20200925201728
+139.138.65.76 4 56 11048528 20200913211136
+107.77.106.30 5 62 11313692 20200920230644
+74.73.54.24 4 59 12140029 20200920204303
+52.224.20.186 1 1 34454 20200923124042
+73.130.18.202 4 14 1529429 20200921142531
+96.224.220.165 15 223 44159658 20200920204532
+107.77.76.18 4 56 11048528 20200912190953
+172.58.227.102 4 56 11048528 20200907124650
+24.185.112.100 0 2 841376 
+67.254.251.160 4 56 11048528 20200923154258
+40.84.199.107 3 3 103362 20200925083000
+51.137.159.226 2 2 68908 20200924215117
+3.81.245.94 1 1 34454 20200920202459
+107.77.70.134 1 1 34454 20200908180230
+104.208.238.88 7 7 241178 20200924034806
+67.81.173.239 8 93 14188828 20200929222637
+40.77.188.199 1 1 675 20200916052509
+108.29.29.143 4 56 11048528 20200908154741
+72.80.61.61 4 106 20888921 20200927094542
+24.45.23.200 4 56 11048528 20200921083706
+99.203.119.22 4 56 11048528 20200923090155
+142.114.119.194 3 36 3139625 20200908105415
+71.105.206.54 5 57 11082982 20200920141626
+176.9.47.122 1 18 417541 20200918073538
+160.39.249.178 3 55 11014074 20200921090328
+165.225.38.24 3 55 11047853 20200916181142
+116.96.77.136 6 57 11188799 20200911033120
+70.23.45.58 1 1 34454 20200930081218
+68.174.138.248 8 166 43180878 20200913183517
+129.213.126.250 1 1 34454 20200913164547
+74.71.100.201 1 1 34454 20200909180305
+74.64.109.142 3 75 11435398 20200911075854
+74.64.37.200 4 56 11048528 20200928211103
+100.37.241.37 12 168 33145584 20200919231723
+172.58.227.143 8 61 8504618 20200911112025
+24.187.69.91 10 150 27219558 20200928193656
+64.235.38.63 2 2 68908 20200929124033
+70.23.35.143 4 56 11048528 20200918151728
+172.58.230.225 4 56 11048528 20200921193209
+67.243.147.93 9 113 22131510 20200909114215
+65.78.17.188 8 112 22097056 20200925222303
+69.171.251.1 0 1 497177 
+38.99.62.94 1 1 34454 20200910115123
+67.243.227.106 2 54 10988180 20200923124338
+13.78.227.187 4 4 137816 20200930115204
+71.105.67.178 3 50 9227246 20200902200045
+24.184.157.188 7 106 19973755 20200902224820
+172.58.188.55 1 6 265164 20200908190411
+104.162.201.170 5 66 11484089 20200904094345
+204.9.73.211 1 1 34454 20200919062623
+108.54.115.191 4 56 11048528 20200905141740
+13.66.133.12 1 1 15296 20200905163130
+107.77.202.168 4 56 11048528 20200929000741
+188.166.241.190 3 3 103362 20200921204311
+69.202.225.241 4 56 11048528 20200907150705
+68.192.182.16 7 174 47124485 20200917163255
+207.237.107.186 4 56 11048528 20200928170107
+24.189.134.237 4 74 17581537 20200914212315
+51.222.43.123 6 6 169205 20200930061006
+24.38.196.54 5 91 14646971 20200925161158
+104.218.61.48 8 8 275632 20200929023126
+184.94.240.92 1 1 34454 20200924235245
+149.100.187.245 1 1 34454 20200924040239
+18.236.244.115 2 2 68908 20200918211624
+172.58.227.74 4 56 11048528 20200922170528
+172.58.230.204 8 112 22097056 20200926225310
+172.58.227.148 8 110 22095446 20200902181541
+108.14.88.15 6 110 22095706 20200924210648
+128.122.77.34 5 107 20889596 20200912220939
+172.58.231.163 1 14 2516284 20200911115514
+173.252.95.20 2 12 3673966 20200908165959
+67.206.165.2 4 106 20888921 20200919134223
+173.252.127.19 1 1 34454 20200901150236
+20.43.58.36 13 13 447902 20200930034841
+173.252.95.8 0 5 1186569 
+68.192.148.7 4 56 11048528 20200908234321
+80.82.68.69 1 1 34454 20200928164446
+107.77.76.45 4 56 11048528 20200908134316
+71.183.253.235 3 55 11047853 20200911135615
+18.185.188.19 1 1 34454 20200923232531
+161.97.116.178 1 1 34454 20200926054722
+99.203.119.162 4 56 11048528 20200905115626
+110.136.216.1 1 1 34454 20200930001613
+96.239.98.90 20 280 55242640 20200924151236
+216.165.95.175 4 55 11047723 20200930014508
+187.108.203.53 1 1 34454 20200910000638
+72.229.220.141 8 160 41004162 20200913160403
+74.65.193.112 1 51 9841068 20200910205810
+187.189.106.174 1 14 2612254 20200927173424
+172.58.227.251 4 55 11047723 20200930003802
+99.203.118.88 3 54 11013269 20200928125312
+149.68.242.123 1 1 34454 20200921100558
+174.204.128.84 4 56 11048528 20200921014834
+208.127.88.59 4 106 20888921 20200925143926
+107.77.106.130 1 1 34454 20200920183537
+172.58.229.23 2 2 16591 20200903230141
+149.68.242.120 7 153 29124815 20200908215221
+172.241.238.61 1 1 34454 20200923125419
+13.90.92.198 1 1 34454 20200913183507
+40.77.167.133 0 3 11521 
+143.55.4.31 4 55 11047723 20200924142645
+66.220.149.31 1 23 3885407 20200902192914
+39.40.252.69 3 97 17953691 20200918140911
+72.80.107.48 11 156 28451742 20200914122221
+207.38.146.174 8 139 32708429 20200901160645
+174.194.196.109 1 1 34454 20200923210304
+173.252.127.6 0 1 564865 
+76.99.32.159 3 47 7857750 20200916162714
+104.251.82.66 1 1 34454 20200902144505
+34.126.103.62 3 3 103362 20200907055528
+99.203.119.52 1 5 263852 20200926143140
+74.68.108.76 8 166 43203010 20200904001330
+99.35.174.102 1 51 9841068 20200908141133
+71.190.144.34 4 68 15906830 20200920015712
+51.141.186.102 0 1 367777 
+173.252.95.12 0 2 914574 
+98.15.197.206 4 56 11048528 20200923111007
+188.166.216.202 3 3 103362 20200921185158
+173.52.208.243 12 228 56378780 20200922120503
+66.220.149.113 0 1 33498 
+71.167.126.200 4 56 11048528 20200906102213
+166.137.252.117 12 167 33144779 20200925120342
+52.137.71.47 1 1 15296 20200901160324
+88.198.201.144 1 1 34454 20200926073551
+174.204.140.162 7 52 4797216 20200930093706
+68.195.98.70 2 54 11013399 20200918192241
+96.232.246.76 5 57 11082982 20200910103052
+172.58.235.232 4 55 11047723 20200927165152
+34.225.194.170 1 1 34454 20200918153130
+103.124.93.27 3 3 103362 20200901164748
+107.77.106.95 7 111 22062602 20200919162843
+67.254.167.229 1 51 9841068 20200922205521
+31.13.115.17 0 2 388436 
+13.66.252.59 1 1 15296 20200903170024
+71.187.98.145 30 423 91113726 20200929115244
+172.58.228.137 4 55 11047723 20200918173436
+172.58.228.180 2 53 11002616 20200923151436
+68.194.33.51 1 6 265164 20200906221957
+51.143.41.102 2 2 68908 20200901194401
+172.58.228.114 1 3 215382 20200922115652
+172.58.227.61 3 55 11047853 20200903204256
+108.6.37.10 0 1 564865 
+69.123.243.41 7 111 22062602 20200919111041
+107.77.76.15 1 10 391804 20200903183453
+167.172.157.79 1 1 34454 20200927013057
+69.171.251.7 0 2 35458 
+174.204.141.40 5 72 11929865 20200903225403
+3.90.45.7 1 1 15296 20200903120653
+172.58.227.196 4 55 11047723 20200910174203
+69.121.111.211 11 217 42985302 20200930142059
+174.197.131.67 4 56 11048528 20200903014046
+68.197.20.190 1 1 34454 20200916213900
+180.163.220.3 0 1 420688 
+40.83.175.156 1 1 34454 20200908071431
+100.8.250.31 4 57 11477034 20200913193501
+38.18.57.48 1 1 34454 20200910220242
+74.90.81.100 21 281 55277094 20200920084508
+99.203.119.115 4 56 11048528 20200912130402
+23.100.35.40 0 1 564865 
+216.93.204.218 3 15 1656916 20200922011851
+52.35.20.1 3 3 65843 20200904163425
+104.162.26.162 1 51 9841068 20200928215541
+216.165.95.187 8 140 24060585 20200928115152
+52.142.50.65 4 4 137816 20200930185451
+74.105.210.89 12 268 52792591 20200918004833
+52.156.135.125 1 1 34454 20200915170317
+139.228.156.60 1 1 34454 20200922215057
+208.226.153.28 24 298 50474712 20200909155238
+172.58.228.63 4 55 11047723 20200927161820
+107.77.70.110 12 177 36911675 20200920130840
+125.164.155.41 2 2 68908 20200905104633
+71.105.114.207 6 110 22095706 20200904090736
+173.52.217.231 15 223 44159658 20200924113625
+69.125.96.222 4 56 11048528 20200915113557
+163.182.134.9 1 41 5755907 20200913212209
+129.177.187.189 0 1 428506 
+141.155.116.211 3 55 11047853 20200921230716
+68.193.137.176 4 56 11048528 20200928084023
+130.211.62.52 18 78 1793348 20200905162203
+172.58.231.84 1 1 34454 20200906102645
+67.254.162.220 4 40 4286504 20200930142125
+20.190.240.36 1 1 34454 20200929182547
+67.254.194.150 4 56 11048528 20200913180320
+172.58.230.198 4 55 11047723 20200909025515
+107.77.70.34 23 346 60101657 20200910174428
+66.42.119.188 1 1 34454 20200915195336
+120.21.73.192 6 110 22095706 20200924212208
+72.80.14.246 6 110 22095706 20200924182208
+174.204.141.26 4 116 34281724 20200905144727
+74.71.86.111 4 56 11048528 20200921102928
+72.227.180.0 3 55 11047853 20200926115336
+192.71.42.108 1 1 34454 20200913171433
+52.229.11.246 0 1 289342 
+99.57.112.96 3 58 11209263 20200918180304
+93.159.230.28 3 3 103362 20200926222201
+74.101.39.77 8 112 22097056 20200912204105
+172.58.227.24 2 49 4779069 20200910002013
+52.165.228.73 1 1 34454 20200924123334
+159.65.189.124 1 17 416736 20200930030604
+24.47.65.139 6 96 16113456 20200920190004
+166.137.252.96 6 93 15743624 20200924173614
+107.77.70.120 8 112 22097056 20200921153009
+64.18.9.214 2 20 1369764 20200915112034
+68.174.207.242 8 112 22097056 20200928212022
+172.58.228.3 1 1 34454 20200907154707
+24.45.224.208 8 112 22097056 20200909120659
+91.225.8.143 0 1 428506 
+72.4.104.51 4 56 11048528 20200904153538
+24.193.33.201 8 112 22097056 20200920135347
+189.47.244.146 0 1 553693 
+71.105.13.34 4 89 14131376 20200911155847
+23.100.44.108 1 1 34454 20200919155333
+66.249.83.209 1 1 34454 20200914211400
+172.58.227.105 9 126 23060220 20200915214445
+68.173.5.158 7 161 31902995 20200919114931
+107.77.70.95 4 56 11048528 20200905105140
+68.183.147.180 2 2 68908 20200929123937
+47.151.43.54 6 6 206724 20200925185056
+98.13.211.226 1 5 263852 20200902230538
+150.108.240.163 3 55 11047853 20200913164651
+173.252.87.9 2 2 68908 20200902192947
+31.13.115.23 0 7 1794028 
+172.58.227.213 16 182 28374436 20200908180941
+142.255.107.189 4 56 11048528 20200906103924
+69.171.251.119 0 2 518774 
+172.58.228.177 4 55 11047723 20200909103424
+99.203.118.11 4 56 11048528 20200911144603
+172.58.231.95 3 21 1791959 20200924081459
+67.245.44.29 5 100 12309293 20200930002602
+107.77.70.75 4 56 11048528 20200914125421
+52.188.108.235 1 1 34454 20200920212815
+100.12.193.28 4 56 11048528 20200906032518
+148.75.237.15 20 260 45608935 20200928154456
+73.194.127.191 4 65 14841539 20200909213033
+173.252.95.30 0 1 33498 
+173.252.95.2 1 7 1213140 20200908170002
+108.49.110.194 4 56 11048528 20200918223531
+69.171.251.11 0 1 497177 
+173.252.87.11 1 9 2426100 20200902192942
+138.94.13.140 1 7 267124 20200924065909
+99.203.119.174 8 112 22097056 20200923101552
+172.58.228.94 8 121 25361830 20200905142057
+34.82.69.1 1 1 34454 20200901055725
+47.20.48.80 4 56 11048528 20200920102158
+182.0.199.71 1 1 34454 20200921022510
+110.227.173.223 1 1 34454 20200920002214
+88.99.137.13 1 1 34454 20200907102815
+157.55.39.194 0 2 96564 
+172.58.235.5 3 45 7123236 20200926003959
+67.84.12.39 11 129 23731343 20200923085700
+68.160.218.10 4 55 11047723 20200920113444
+165.230.224.218 4 56 11048528 20200926172802
+67.86.135.155 4 56 11048528 20200905021527
+107.72.162.77 1 1 34454 20200918175553
+96.242.15.251 4 55 11047723 20200902185902
+20.190.242.134 4 4 103362 20200929054525
+107.175.156.71 2 2 68908 20200905023656
+99.203.109.165 0 2 1186390 
+87.134.187.93 1 14 2612254 20200901055316
+67.243.149.232 4 56 11048528 20200925083348
+74.101.187.198 3 55 11047853 20200902215125
+67.243.215.48 4 37 3140300 20200907172746
+69.171.251.18 0 8 2557218 
+207.237.93.15 16 167 20469428 20200902150455
+13.66.5.101 2 2 68908 20200925140610
+23.100.34.122 1 1 34454 20200914171021
+23.229.90.90 5 32 785854 20200919173046
+34.221.137.223 1 1 34454 20200914091846
+70.59.23.24 0 2 841376 
+174.197.135.88 4 56 11048528 20200910002921
+208.93.218.132 1 1 34454 20200908210148
+184.153.5.164 12 179 27113753 20200911212244
+124.206.180.133 1 1 34454 20200909170515
+173.252.95.22 0 2 67774 
+130.245.192.5 3 69 14199078 20200907165956
+37.120.133.167 1 1 34454 20200923083931
+172.58.228.135 4 56 11048528 20200921184440
+52.224.21.51 2 2 68908 20200911112650
+159.89.175.59 1 1 34454 20200930200538
+165.155.137.133 1 8 288721 20200903114958
+100.33.90.116 17 224 41351373 20200928213440
+209.99.161.225 1 1 16093 20200924033633
+62.210.83.78 1 1 34454 20200922215202
+34.212.62.28 2 2 68908 20200918093008
+172.58.228.194 7 85 12927721 20200907101324
+1.55.49.231 1 1 34454 20200904003219
+74.101.110.229 8 93 14188828 20200906120145
+68.132.71.90 4 56 11048528 20200908121453
+172.58.236.43 3 55 11047853 20200905190417
+172.58.230.235 4 55 11047723 20200925211050
+174.244.177.36 6 107 20491760 20200910175606
+18.188.161.201 1 1 34454 20200913035508
+154.30.178.187 1 1 34454 20200904043557
+216.165.126.19 4 56 11048528 20200905182100
+174.242.72.101 7 159 40969708 20200916145859
+118.163.142.210 0 1 593195 
+172.58.227.95 4 55 11047723 20200914135638
+80.239.140.67 1 1 34454 20200907211710
+194.193.150.125 0 1 593195 
+96.246.180.50 11 155 27976923 20200926193337
+69.203.216.146 2 102 19682136 20200925160628
+173.252.87.117 1 3 71405 20200904182333
+216.165.95.133 5 66 11440332 20200908231323
+52.156.129.197 1 1 34454 20200913153710
+24.103.175.186 3 32 1247523 20200905081504
+24.188.169.29 4 76 19107872 20200928132024
+172.58.231.12 4 55 11047723 20200929164935
+108.6.233.2 4 56 11048528 20200914155357
+24.44.150.208 4 56 11048528 20200921200616
+108.6.186.125 10 184 28885519 20200920120553
+45.80.118.228 1 1 34454 20200906163618
+24.103.43.101 8 112 22097056 20200918174854
+74.117.136.69 4 56 11048528 20200924154557
+172.58.227.34 4 55 11047723 20200909235326
+173.56.43.216 4 56 11048528 20200910152851
+54.237.36.94 2 2 68908 20200910170300
+78.95.83.39 1 1 34454 20200901150050
+154.51.131.142 4 4 137816 20200924020856
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200901 201 2927 578630246 62
+20200902 247 3165 577328743 78
+20200903 234 3242 629391855 60
+20200904 296 3476 651338240 62
+20200905 216 2684 510467288 57
+20200906 239 2503 460574195 59
+20200907 199 2584 456501442 55
+20200908 250 3281 599306887 76
+20200909 210 3040 610957321 65
+20200910 190 2393 425840119 56
+20200911 202 2842 532211644 59
+20200912 113 1586 312502529 32
+20200913 157 2278 479415717 58
+20200914 253 3565 684675758 77
+20200915 150 1985 372081869 47
+20200916 187 2596 526241049 60
+20200917 200 2805 520040665 56
+20200918 206 2924 569732969 51
+20200919 145 2037 380663889 43
+20200920 236 2838 521431701 59
+20200921 232 3170 590166584 68
+20200922 176 2186 439660131 53
+20200923 241 3190 590643333 71
+20200924 231 3236 645461857 69
+20200925 213 2853 539936776 64
+20200926 191 2524 483654583 63
+20200927 189 2315 417771657 69
+20200928 251 3345 631198727 88
+20200929 207 2882 536636939 57
+20200930 184 2147 361179390 64
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 56
+15mn-30mn 33
+30s-2mn 94
+2mn-5mn 33
+0s-30s 1588
+30mn-1h 32
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 2334 79795464 1687 735
+/fonts/helvetica/HelveticaLTStd-Light.woff 1378 21932248 31 323
+/fonts/fontawesome-webfont.woff 1364 60605248 70 185
+/assets/images/menu.svg 970 654750 17 545
+/specials.html 113 1728448 28 21
+/policy.html 37 595441 3 12
+/fonts/helvetica/HelveticaLTStd-Light.ttf 15 416100 0 6
+/fonts/fontawesome-webfont.ttf 15 1209780 1 5
+/fonts/helvetica/HelveticaLTStd-Roman.woff 6 148104 0 1
+/fonts/helvetica/HelveticaLTStd-Bold.woff 3 73668 0 2
+/blog/robots.txt 1 0 0 1
+/fonts/fontawesome-webfont.svg 2 404296 0 1
+/fonts/helvetica/HelveticaLTStd-Roman.ttf 2 93088 0 1
+/fonts/helvetica/HelveticaLTStd-Light.eot 1 28042 0 0
+/fonts/fontawesome-webfont.eot 1 38205 0 0
+/fonts/helvetica/HelveticaLTStd-Bold.ttf 1 46488 0 0
+/faqnaftercare.html 1 15018 1 0
+/fonts/helvetica/HelveticaLTStd-Roman.eot 1 46850 0 0
+/fonts/helvetica/HelveticaLTStd-Bold.eot 1 46784 0 0
+END_SIDER

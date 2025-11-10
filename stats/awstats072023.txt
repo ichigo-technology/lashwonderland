@@ -1,0 +1,655 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202307 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2533                
+POS_VISITOR 11872               
+POS_DAY 18252               
+POS_DOMAIN 3401                
+POS_LOGIN 3634                
+POS_ROBOT 3789                
+POS_WORMS 4404                
+POS_EMAILSENDER 4535                
+POS_EMAILRECEIVER 4678                
+POS_SESSION 18476               
+POS_SIDER 18677               
+POS_FILETYPES 4813                
+POS_OS 5025                
+POS_BROWSER 5139                
+POS_SCREENSIZE 5305                
+POS_UNKNOWNREFERER 5379                
+POS_UNKNOWNREFERERBROWSER 5691                
+POS_ORIGIN 5998                
+POS_SEREFERRALS 6141                
+POS_PAGEREFS 6298                
+POS_SEARCHWORDS 6555                
+POS_KEYWORDS 6707                
+POS_MISC 2197                
+POS_ERRORS 6766                
+POS_CLUSTER 3490                
+POS_SIDER_404 6874                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230802190001 1 0 71960395721
+FirstTime 20230701000656
+LastTime 20230706002127
+LastUpdate 20230806023107 1 0 0 0 0
+TotalVisits 164                 
+TotalUnique 151                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 158                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 64 13575329 16 111 458299
+1 20 191 31897493 30 65 8362408
+2 17 179 40282726 7 76 15654333
+3 2 2 68194 7 42 1546219
+4 6 60 13472363 4 52 11278819
+5 25 25 780412 27 33 226716
+6 2 2 50561 124 144 989891
+7 9 117 26775591 4 12 139257
+8 13 154 27997822 4 5 103158
+9 35 497 109964653 1 5 18607
+10 40 582 125320236 16 105 15277197
+11 31 346 75896374 5 27 661450
+12 41 527 120507208 4 41 4821263
+13 11 174 40091876 11 18 167100
+14 24 240 53717848 12 20 77731
+15 22 261 49017467 12 20 92003
+16 10 139 24405604 11 54 8498054
+17 15 174 30367015 15 53 9803685
+18 12 120 26826152 19 58 6571664
+19 23 293 66921929 8 43 796581
+20 13 121 26945401 35 38 62708
+21 8 18 669495 7 96 16128136
+22 13 161 21067482 6 44 8518622
+23 19 271 57512100 15 79 8347333
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 421 4718 984131331
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+robot 452 95760809 20230705225420 7
+bot[+:,\.\;\/\\-] 126 5130167 20230706003414 11
+googlebot 85 7061974 20230705220550 18
+spider 78 8898923 20230705191014 2
+cfnetwork 30 0 20230705153717 0
+java 20 681940 20230703014741 0
+yandex 13 306873 20230706013157 4
+no_user_agent 6 204582 20230705211526 0
+unknown 5 0 20230703180027 5
+crawl 3 68194 20230704152209 1
+core 1 34097 20230705225200 0
+python 1 34097 20230702164117 0
+mj12bot 1 34097 20230705161305 0
+custo 1 34097 20230704171908 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 864 22743262 0 0
+png 233 48858810 0 0
+woff 157 4723060 0 0
+html 196 6285343 0 0
+js 1462 33225786 0 0
+jpg 1660 866802270 0 0
+svg 68 45900 0 0
+gif 78 1446900 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 4028
+winxp 3
+winnt 248
+Unknown 10
+linuxubuntu 1
+linux 425
+win2008 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+konqueror 1
+mozilla 701
+firefox112.0 1
+firefox17.0 1
+chrome 746
+firefox26.0 1
+firefox102.0 4
+Unknown 10
+safari 3253
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+DuckDuckGo/5_(com.duckduckgo.mobile.android;_Android_API_33) 20230703171349
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230705231531
+Go-http-client/1.1 20230704152843
+Mozila/5.0 20230704152843
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+DuckDuckGo/5_(com.duckduckgo.mobile.android;_Android_API_33) 20230703171349
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20230705231531
+Go-http-client/1.1 20230704152843
+Mozila/5.0 20230704152843
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 151 159
+From1 2 2
+From2 19 19
+From3 16 16
+From4 233 4522
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 19 19
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://l.instagram.com 12 12
+http://instagram.com 2 2
+https://crm.xiaoman.cn 1 1
+https://duckduckgo.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 2 0
+409 3 249
+404 414 351135
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 213
+/blog/wp-includes/wlwmanifest.xml 1 -
+/wordpress/ 2 -
+/priv8.php 1 -
+/bypass.php 1 -
+/wp-content/plugins/wordpress-three/miin.php 1 www.google.com
+/xx.php 1 -
+/sftp-config.json 1 -
+/.well-known/traffic-advice 1 -
+/admin.php 1 http://lashwonderland.com/
+/d.php 1 -
+/simple-lightbox.js 5 -
+/2021/wp-includes/wlwmanifest.xml 1 -
+/site/wp-includes/wlwmanifest.xml 1 -
+/0.php 1 -
+/aws.yml 1 -
+/laravel/.env 1 -
+/slideroption.js 5 -
+/13.php 1 -
+/o.php 1 -
+/ok.php 1 -
+/2019/wp-includes/wlwmanifest.xml 1 -
+/mar.php 1 -
+/n.php 1 -
+/test/wp-includes/wlwmanifest.xml 1 -
+/blog 2 -
+/storage/.env 1 -
+/bc 1 -
+/87.php 1 -
+/jquery.superslides.js 5 -
+/j.php 1 -
+/admin/login 1 http://lashwonderland.com/
+/bootstrap.js 5 -
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 1 -
+/login.html 1 http://lashwonderland.com/
+/p.php 1 -
+/_profiler/phpinfo 1 -
+/jquery.isotope.js 5 -
+/ga.js 5 -
+/bb.php 1 -
+/alf.php 1 -
+/prevlaravel/sftp-config.json 1 -
+/shop/wp-includes/wlwmanifest.xml 1 -
+/old 3 -
+/style.php 1 -
+/wp-links.php 1 http://lashwonderland.com/wp-links.php
+/www.php 1 -
+/main 3 -
+/lf.php 1 -
+/misc/ajax.js 1 -
+/.env.bak 1 -
+/login 1 http://lashwonderland.com/
+/y.php 1 -
+/haxor.php 1 -
+/phpinfo.php 1 -
+/styles.css 85 -
+/admin/login/ 1 http://lashwonderland.com/
+/.aws/credentials 1 -
+/custom.js 5 -
+/upload.php 1 -
+/backend/.env 1 -
+/q.php 1 -
+/l.php 1 -
+/local/.env 1 -
+/new.php 1 -
+/5.php 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/alfa123.php 1 -
+/wp-includes/wlwmanifest.xml 1 -
+/jquery.ui.rlightbox.js 5 -
+/777.php 1 -
+/7.php 1 -
+/wp-confirm.php 1 -
+/sym.php 1 -
+/w.php 1 -
+/gulswafd.php 1 www.google.com
+/wso1337.php 1 -
+/stickUp.js 5 -
+/jquery.min.js 5 -
+/new 3 -
+/10.php 1 -
+/ads.txt 21 -
+/1.php 1 -
+/wjsoqcvp.php 1 www.google.com
+/defau1t.php 1 -
+/assets/admin/plugins/uploadify/uploadify.css 1 -
+/mrjn.php 1 -
+/jquery.flexslider.js 5 -
+/up.php 1 -
+/bk 1 -
+/minimo.php 1 -
+/a.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 1 -
+/nee.php 1 -
+/view-source: 1 -
+/root.php 1 -
+/9.php 1 -
+/if.php 1 -
+/0byte.php 1 -
+/wi.php 1 -
+/zz.php 1 http://lashwonderland.com/zz.php
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/repeater.php 2 www.google.com
+/k.php 1 -
+/u.php 1 -
+/wp.php 1 -
+/s.php 1 -
+/8.php 1 -
+/WSO.php 1 -
+/V3.php 1 -
+/login.aspx 1 http://lashwonderland.com/
+/backup 1 -
+/h.php 1 -
+/c99.php 1 -
+/100.php 1 -
+/wp-content/plugins/hellopress/ 1 www.google.com
+/alfacgiapi/perl.alfa 1 www.google.com
+/kk.php 1 -
+/config/aws.yml 1 -
+/feed/ 1 -
+/admin/login.php 1 http://lashwonderland.com/
+/wp1/wp-includes/wlwmanifest.xml 1 -
+/wp-one.php 1 -
+/env/.env 1 -
+/3.php 1 -
+/wp-content/fw.php 1 -
+/.wp-cache.php 1 -
+/config.js 1 -
+/xox.php 1 -
+/FoxWSOv1.php 1 -
+/sessions/.env 1 -
+/kn.php 1 -
+/jquery.placeholder.js 5 -
+/r.php 1 -
+/wp-content/plugins/dos2unix/dos2unix.php 1 -
+/wordpress 3 -
+/wp-content/themes/seotheme/db.php 3 www.google.com
+/fatmous7231231/ 1 http://lashwonderland.com/
+/back/.env 1 -
+/wp-content/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 1 -
+/g.php 1 -
+/wp-content/themes/hello-element/footer.php 1 www.google.com
+/403.php 1 -
+/lol.php 1 -
+/web/wp-includes/wlwmanifest.xml 1 -
+/symlink.php 1 -
+/Login 1 http://lashwonderland.com/
+/wp-wso.php 1 -
+/jquery.contact.js 5 -
+/sym403.php 1 -
+/i.php 1 -
+/wp-content/plugins/ 1 www.google.com
+/wp-ad.php 1 -
+/7yn.php 1 -
+/t.php 1 -
+/admin/assets/global/plugins/uploadify/uploadify.css 1 -
+/login/ 1 http://lashwonderland.com/
+/home 1 -
+/.vscode/sftp.json 1 -
+/jquery.easing.js 5 -
+/4.php 1 -
+/wp-includes/ID3/license.txt 1 -
+/public/.env 1 -
+/e.php 1 -
+/laravel/public/.env 1 -
+/xl.php 1 -
+/xleet.php 1 -
+/admin/ 1 http://lashwonderland.com/
+/V5.php 1 -
+/x.php 1 -
+/sftp.json 1 -
+/404.php 1 -
+/humans.txt 1 -
+/v.php 1 -
+/leaf.php 1 -
+/m.php 1 -
+/login.php 1 http://lashwonderland.com/
+/jquery.mousewheel.js 5 -
+/front/.env 1 -
+/.env 4 -
+/nasgor.php 1 -
+/3301.php 1 -
+/z.php 1 -
+/cms/wp-includes/wlwmanifest.xml 1 -
+/info.php 1 -
+/www.google-analytics.com/analytics.js 5 -
+/wp-content/plugins/wpputty/wpputty.php 1 -
+/alexus.php 1 -
+/alex.php 1 -
+/xxx.php 1 -
+/test 2 -
+/wp/wp-includes/wlwmanifest.xml 1 -
+/2.php 1 -
+/roots.php 1 http://lashwonderland.com/roots.php
+/wp-plain.php 2 www.google.com
+/c.php 1 -
+/wp-configer.php 1 -
+/hello.php 1 -
+/wp-admin/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php%20=%20%3E%3E%20shell%20no%20work 1 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/wpyii2/wpyii2.php 1 -
+/admin 1 http://lashwonderland.com/
+/wp 3 -
+/f.php 1 -
+/rahma.php 1 -
+/anone.php 1 -
+/testing 2 -
+/modernizr.custom.26633.js 5 -
+/jquery.tabdancer.js 5 -
+/ws.php 1 -
+/b.php 1 -
+/jquery.ui.widget.min.js 5 -
+/6.php 1 -
+/phpinfo 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 158
+69.201.181.132 24 348 80219988 20230702143930
+74.71.26.98 16 217 34643027 20230704092231
+207.237.191.168 13 175 40146338 20230701140439
+67.80.52.34 12 174 40112241 20230703022531
+96.224.26.75 11 152 29947806 20230703105136
+172.56.160.247 10 172 40044047 20230704110051
+74.72.112.98 9 117 26775591 20230702085155
+107.127.7.27 8 116 26741494 20230705190106
+216.158.145.186 8 116 26741494 20230701122457
+173.222.0.214 8 71 5356403 20230705223845
+34.194.45.108 1 1 34097 20230702122954
+54.212.95.64 1 1 34097 20230701052529
+69.63.184.3 1 1 34097 20230703010618
+35.91.106.76 1 1 34097 20230701052701
+5.78.40.76 1 1 34097 20230701003248
+4.154.6.43 4 34 1879468 20230704150759
+34.221.74.5 1 1 34097 20230703052241
+174.44.59.239 1 1 34097 20230701212449
+172.59.176.90 0 32 2892353 
+107.174.115.13 1 1 34097 20230704015239
+174.206.164.181 3 57 13336650 20230705091052
+54.91.67.231 1 1 34097 20230702205651
+18.236.99.186 1 1 34097 20230703052110
+161.35.132.103 1 1 15139 20230704090806
+35.175.201.95 1 1 34097 20230706002127
+104.28.76.232 3 47 9704674 20230705091702
+104.28.76.237 4 77 13200423 20230705104104
+108.14.83.91 4 37 3140143 20230704170139
+5.78.44.57 1 1 15139 20230703053930
+172.56.161.152 4 58 13370747 20230705231930
+74.71.210.143 4 58 13370747 20230705220609
+5.133.192.99 1 1 34097 20230704025914
+44.212.53.234 1 1 34097 20230701033644
+68.195.16.224 5 59 13404844 20230705123931
+113.125.51.198 1 1 34097 20230703121119
+108.53.106.184 0 35 3846245 
+104.28.76.236 3 52 10474831 20230705104310
+42.83.147.55 1 1 34097 20230704122518
+173.252.83.7 0 1 13732 
+172.56.160.122 1 11 449774 20230703212956
+72.217.19.107 1 41 6601006 20230702153257
+104.28.55.229 0 19 7607845 
+174.167.2.244 4 58 13370747 20230704002936
+5.188.62.174 3 3 102291 20230702182219
+34.78.128.92 1 1 34097 20230702110338
+35.164.248.129 1 1 34097 20230705045056
+174.211.166.87 1 1 34097 20230704080437
+172.56.160.81 4 58 13370747 20230704135354
+44.211.31.28 1 1 34097 20230701112235
+172.58.227.221 4 58 13370747 20230701133009
+108.46.177.138 4 58 13370747 20230701093940
+54.200.158.149 1 1 34097 20230702054757
+193.186.4.207 1 1 34097 20230701140634
+54.88.179.33 3 3 102291 20230701000657
+174.216.209.6 4 58 13370747 20230705123945
+74.80.208.65 1 1 16464 20230703180027
+134.122.97.159 1 1 15139 20230703050847
+173.252.107.118 1 1 34097 20230705231531
+104.210.144.72 1 1 34097 20230701203543
+104.28.55.233 1 6 548928 20230703152521
+68.119.194.3 1 16 516506 20230704085600
+76.159.179.132 4 58 13370747 20230703140641
+104.28.55.235 2 22 4653014 20230703152520
+62.210.173.73 1 1 34097 20230703235140
+54.209.159.63 6 6 204582 20230704175425
+172.56.160.178 4 58 13370747 20230701191909
+35.171.144.152 1 1 34097 20230701000657
+113.142.141.105 1 1 34097 20230705120240
+34.218.210.8 1 1 34097 20230705051908
+208.91.69.18 1 1 0 20230702051805
+173.252.95.1 0 1 13732 
+35.86.246.13 1 1 34097 20230704055756
+172.58.231.67 4 58 13370747 20230701090441
+151.205.172.211 4 58 13370747 20230705201157
+185.27.99.136 1 1 34097 20230702055058
+104.28.76.231 1 8 678319 20230705224855
+174.216.212.234 4 48 8759975 20230705114115
+54.244.158.221 1 1 34097 20230703052108
+24.228.25.97 8 116 26741494 20230701093442
+172.58.228.196 4 58 13370747 20230701093653
+223.247.178.167 1 1 34097 20230701113122
+66.65.38.165 4 58 13404169 20230702210048
+71.167.253.110 4 58 13370747 20230704112217
+104.28.76.235 2 22 8394326 20230705091659
+191.96.168.220 2 2 68194 20230703190748
+192.177.111.7 2 2 68194 20230702053157
+52.203.186.4 1 1 0 20230704180723
+172.190.70.179 1 1 34097 20230705125523
+104.28.55.232 0 5 19229 
+40.91.80.231 1 1 34097 20230701164041
+35.89.57.117 1 1 34097 20230704060026
+167.71.10.53 1 1 16464 20230703064740
+35.164.89.37 1 1 34097 20230704055912
+174.204.130.252 1 24 1794834 20230702103103
+71.105.117.229 6 114 26740144 20230704233228
+54.188.221.28 1 1 34097 20230705052144
+67.254.141.253 4 59 13370747 20230703171348
+167.172.244.226 2 2 68194 20230702020456
+68.161.202.204 4 58 13370747 20230705231528
+82.80.249.214 1 1 34097 20230705182210
+174.205.100.50 5 59 13404844 20230705153716
+47.230.132.117 1 1 34097 20230702230752
+91.207.102.153 1 1 34097 20230704160612
+74.108.28.93 4 58 13370747 20230702171203
+34.219.14.110 1 1 34097 20230704055947
+173.252.79.4 0 1 13732 
+71.172.67.8 4 58 13370747 20230704195042
+124.237.181.12 1 1 34097 20230703144934
+34.212.38.68 1 1 34097 20230701052522
+68.237.33.227 4 58 13370747 20230702123646
+64.18.10.201 3 57 13336650 20230701143526
+172.56.81.170 4 47 8074310 20230705164649
+52.206.67.162 1 18 417184 20230702175015
+172.56.161.73 4 58 13370747 20230703195135
+34.209.128.200 1 1 34097 20230703051922
+52.34.159.28 1 1 34097 20230702054614
+173.77.1.148 4 58 13370747 20230703010620
+74.80.208.89 1 1 15139 20230705212525
+52.41.117.11 1 1 34097 20230704044647
+65.154.226.171 1 1 34097 20230705092656
+75.182.130.24 8 116 26741494 20230704193334
+104.28.55.230 1 6 541731 20230703152520
+125.164.18.122 1 1 34097 20230701205815
+23.29.32.74 1 1 34097 20230701031808
+54.188.197.83 1 1 34097 20230701052438
+172.58.227.169 1 1 34097 20230702140051
+35.90.122.46 1 1 34097 20230702054722
+172.56.161.12 4 58 13370747 20230705113101
+165.22.195.81 2 2 68194 20230702202848
+172.56.160.223 4 58 13370747 20230703121617
+3.90.201.109 1 1 34097 20230702211552
+34.216.148.5 1 1 34097 20230702054755
+174.206.163.6 4 58 13370747 20230701103331
+165.22.72.218 1 1 16464 20230703101007
+35.205.236.220 1 1 34097 20230704150400
+170.130.183.136 4 4 99797 20230701114507
+181.214.206.189 1 1 0 20230703190711
+70.23.115.40 2 9 322461 20230702155027
+46.232.121.113 3 57 13370072 20230704044126
+69.171.249.9 1 1 34097 20230701051954
+208.85.161.9 3 57 13370072 20230705092653
+172.58.149.92 4 58 13370747 20230702142527
+8.48.69.10 1 1 34097 20230705140818
+125.164.17.248 1 1 34097 20230701205819
+96.246.169.40 8 116 26741494 20230702124533
+142.93.49.82 2 2 68194 20230704232641
+161.8.194.152 1 1 34097 20230704110610
+4.150.56.34 1 1 34097 20230703110821
+172.104.141.211 1 1 34097 20230701014958
+52.176.16.45 2 2 68194 20230705021247
+23.95.218.242 1 1 34097 20230704015158
+77.74.177.119 1 1 34097 20230702105303
+69.171.249.5 1 1 34097 20230703051656
+174.197.133.25 2 20 671628 20230701081900
+34.219.148.72 1 1 34097 20230705045113
+74.71.78.24 3 57 13370072 20230702112129
+194.26.229.64 2 2 68194 20230704152843
+71.105.62.240 1 1 34097 20230705215839
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20230701 96 1067 232703925 37
+20230702 83 958 199963261 32
+20230703 83 893 183032071 31
+20230704 67 715 142786466 31
+20230705 91 1084 225611511 32
+20230706 1 1 34097 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+15mn-30mn 4
+2mn-5mn 4
+30s-2mn 4
+0s-30s 150
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 180 6035169 142 95
+/fonts/helvetica/HelveticaLTStd-Light.woff 79 1257364 6 14
+/fonts/fontawesome-webfont.woff 78 3465696 6 16
+/assets/images/menu.svg 68 45900 1 29
+/specials.html 10 151390 5 6
+/policy.html 6 98784 4 4
+END_SIDER
